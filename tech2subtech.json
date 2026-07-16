@@ -1,0 +1,1249 @@
+{
+    "enterprise": {
+        "Adversary-in-the-Middle": [
+            "Adversary-in-the-Middle",
+            "Adversary-in-the-Middle: ARP Cache Poisoning",
+            "Adversary-in-the-Middle: DHCP Spoofing",
+            "Adversary-in-the-Middle: Evil Twin",
+            "Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay"
+        ],
+        "Web Service": [
+            "Web Service",
+            "Web Service: Bidirectional Communication",
+            "Web Service: One-Way Communication",
+            "Web Service: Dead Drop Resolver"
+        ],
+        "Data Staged": [
+            "Data Staged",
+            "Data Staged: Remote Data Staging",
+            "Data Staged: Local Data Staging"
+        ],
+        "Disk Wipe": [
+            "Disk Wipe",
+            "Disk Wipe: Disk Structure Wipe",
+            "Disk Wipe: Disk Content Wipe"
+        ],
+        "Data Obfuscation": [
+            "Data Obfuscation",
+            "Data Obfuscation: Junk Data",
+            "Data Obfuscation: Steganography",
+            "Data Obfuscation: Protocol or Service Impersonation"
+        ],
+        "Subvert Trust Controls": [
+            "Subvert Trust Controls",
+            "Subvert Trust Controls: Install Root Certificate",
+            "Subvert Trust Controls: Gatekeeper Bypass",
+            "Subvert Trust Controls: Code Signing Policy Modification",
+            "Subvert Trust Controls: SIP and Trust Provider Hijacking",
+            "Subvert Trust Controls: Code Signing",
+            "Subvert Trust Controls: Mark-of-the-Web Bypass"
+        ],
+        "Develop Capabilities": [
+            "Develop Capabilities",
+            "Develop Capabilities: Code Signing Certificates",
+            "Develop Capabilities: Exploits",
+            "Develop Capabilities: Digital Certificates",
+            "Develop Capabilities: Malware"
+        ],
+        "Traffic Signaling": [
+            "Traffic Signaling",
+            "Traffic Signaling: Port Knocking",
+            "Traffic Signaling: Socket Filters"
+        ],
+        "Acquire Infrastructure": [
+            "Acquire Infrastructure",
+            "Acquire Infrastructure: Server",
+            "Acquire Infrastructure: Botnet",
+            "Acquire Infrastructure: Virtual Private Server",
+            "Acquire Infrastructure: Domains",
+            "Acquire Infrastructure: DNS Server",
+            "Acquire Infrastructure: Serverless",
+            "Acquire Infrastructure: Web Services",
+            "Acquire Infrastructure: Malvertising"
+        ],
+        "Unsecured Credentials": [
+            "Unsecured Credentials",
+            "Unsecured Credentials: Container API",
+            "Unsecured Credentials: Group Policy Preferences",
+            "Unsecured Credentials: Private Keys",
+            "Unsecured Credentials: Chat Messages",
+            "Unsecured Credentials: Credentials in Registry",
+            "Unsecured Credentials: Credentials In Files",
+            "Unsecured Credentials: Cloud Instance Metadata API",
+            "Unsecured Credentials: Bash History"
+        ],
+        "Access Token Manipulation": [
+            "Access Token Manipulation",
+            "Access Token Manipulation: Parent PID Spoofing",
+            "Access Token Manipulation: Create Process with Token",
+            "Access Token Manipulation: SID-History Injection",
+            "Access Token Manipulation: Token Impersonation/Theft",
+            "Access Token Manipulation: Make and Impersonate Token"
+        ],
+        "Impair Defenses": [
+            "Impair Defenses",
+            "Impair Defenses: Disable or Modify System Firewall",
+            "Impair Defenses: Disable or Modify Linux Audit System",
+            "Impair Defenses: Disable Windows Event Logging",
+            "Impair Defenses: Safe Mode Boot",
+            "Impair Defenses: Disable or Modify Cloud Firewall",
+            "Impair Defenses: Spoof Security Alerting",
+            "Impair Defenses: Disable or Modify Tools",
+            "Impair Defenses: Downgrade Attack",
+            "Impair Defenses: Impair Command History Logging",
+            "Impair Defenses: Indicator Blocking",
+            "Impair Defenses: Disable or Modify Cloud Logs"
+        ],
+        "Proxy": [
+            "Proxy",
+            "Proxy: External Proxy",
+            "Proxy: Domain Fronting",
+            "Proxy: Multi-hop Proxy",
+            "Proxy: Internal Proxy"
+        ],
+        "Boot or Logon Autostart Execution": [
+            "Boot or Logon Autostart Execution",
+            "Boot or Logon Autostart Execution: Authentication Package",
+            "Boot or Logon Autostart Execution: Winlogon Helper DLL",
+            "Boot or Logon Autostart Execution: Print Processors",
+            "Boot or Logon Autostart Execution: Shortcut Modification",
+            "Boot or Logon Autostart Execution: Login Items",
+            "Boot or Logon Autostart Execution: Time Providers",
+            "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder",
+            "Boot or Logon Autostart Execution: Port Monitors",
+            "Boot or Logon Autostart Execution: Kernel Modules and Extensions",
+            "Boot or Logon Autostart Execution: Re-opened Applications",
+            "Boot or Logon Autostart Execution: LSASS Driver",
+            "Boot or Logon Autostart Execution: XDG Autostart Entries",
+            "Boot or Logon Autostart Execution: Active Setup",
+            "Boot or Logon Autostart Execution: Security Support Provider"
+        ],
+        "Software Discovery": [
+            "Software Discovery",
+            "Software Discovery: Security Software Discovery"
+        ],
+        "Create or Modify System Process": [
+            "Create or Modify System Process",
+            "Create or Modify System Process: Launch Daemon",
+            "Create or Modify System Process: Container Service",
+            "Create or Modify System Process: Windows Service",
+            "Create or Modify System Process: Launch Agent",
+            "Create or Modify System Process: Systemd Service"
+        ],
+        "Weaken Encryption": [
+            "Weaken Encryption",
+            "Weaken Encryption: Disable Crypto Hardware",
+            "Weaken Encryption: Reduce Key Space"
+        ],
+        "Abuse Elevation Control Mechanism": [
+            "Abuse Elevation Control Mechanism",
+            "Abuse Elevation Control Mechanism: Bypass User Account Control",
+            "Abuse Elevation Control Mechanism: Sudo and Sudo Caching",
+            "Abuse Elevation Control Mechanism: Setuid and Setgid",
+            "Abuse Elevation Control Mechanism: Elevated Execution with Prompt",
+            "Abuse Elevation Control Mechanism: TCC Manipulation",
+            "Abuse Elevation Control Mechanism: Temporary Elevated Cloud Access"
+        ],
+        "Office Application Startup": [
+            "Office Application Startup",
+            "Office Application Startup: Outlook Rules",
+            "Office Application Startup: Outlook Home Page",
+            "Office Application Startup: Outlook Forms",
+            "Office Application Startup: Office Template Macros",
+            "Office Application Startup: Office Test",
+            "Office Application Startup: Add-ins"
+        ],
+        "Server Software Component": [
+            "Server Software Component",
+            "Server Software Component: IIS Components",
+            "Server Software Component: Web Shell",
+            "Server Software Component: Transport Agent",
+            "Server Software Component: SQL Stored Procedures",
+            "Server Software Component: Terminal Services DLL"
+        ],
+        "Gather Victim Org Information": [
+            "Gather Victim Org Information",
+            "Gather Victim Org Information: Identify Roles",
+            "Gather Victim Org Information: Business Relationships",
+            "Gather Victim Org Information: Identify Business Tempo",
+            "Gather Victim Org Information: Determine Physical Locations"
+        ],
+        "Email Collection": [
+            "Email Collection",
+            "Email Collection: Remote Email Collection",
+            "Email Collection: Email Forwarding Rule",
+            "Email Collection: Local Email Collection"
+        ],
+        "Pre-OS Boot": [
+            "Pre-OS Boot",
+            "Pre-OS Boot: Component Firmware",
+            "Pre-OS Boot: System Firmware",
+            "Pre-OS Boot: ROMMONkit",
+            "Pre-OS Boot: TFTP Boot",
+            "Pre-OS Boot: Bootkit"
+        ],
+        "Application Layer Protocol": [
+            "Application Layer Protocol",
+            "Application Layer Protocol: Web Protocols",
+            "Application Layer Protocol: DNS",
+            "Application Layer Protocol: File Transfer Protocols",
+            "Application Layer Protocol: Publish/Subscribe Protocols",
+            "Application Layer Protocol: Mail Protocols"
+        ],
+        "Exfiltration Over Physical Medium": [
+            "Exfiltration Over Physical Medium",
+            "Exfiltration Over Physical Medium: Exfiltration over USB"
+        ],
+        "System Location Discovery": [
+            "System Location Discovery",
+            "System Location Discovery: System Language Discovery"
+        ],
+        "Permission Groups Discovery": [
+            "Permission Groups Discovery",
+            "Permission Groups Discovery: Local Groups",
+            "Permission Groups Discovery: Cloud Groups",
+            "Permission Groups Discovery: Domain Groups"
+        ],
+        "System Network Configuration Discovery": [
+            "System Network Configuration Discovery",
+            "System Network Configuration Discovery: Internet Connection Discovery",
+            "System Network Configuration Discovery: Wi-Fi Discovery"
+        ],
+        "Search Open Technical Databases": [
+            "Search Open Technical Databases",
+            "Search Open Technical Databases: CDNs",
+            "Search Open Technical Databases: DNS/Passive DNS",
+            "Search Open Technical Databases: Digital Certificates",
+            "Search Open Technical Databases: Scan Databases",
+            "Search Open Technical Databases: WHOIS"
+        ],
+        "Inter-Process Communication": [
+            "Inter-Process Communication",
+            "Inter-Process Communication: XPC Services",
+            "Inter-Process Communication: Dynamic Data Exchange",
+            "Inter-Process Communication: Component Object Model"
+        ],
+        "Phishing for Information": [
+            "Phishing for Information",
+            "Phishing for Information: Spearphishing Attachment",
+            "Phishing for Information: Spearphishing Service",
+            "Phishing for Information: Spearphishing Link",
+            "Phishing for Information: Spearphishing Voice"
+        ],
+        "System Script Proxy Execution": [
+            "System Script Proxy Execution",
+            "System Script Proxy Execution: PubPrn",
+            "System Script Proxy Execution: SyncAppvPublishingServer"
+        ],
+        "Network Denial of Service": [
+            "Network Denial of Service",
+            "Network Denial of Service: Direct Network Flood",
+            "Network Denial of Service: Reflection Amplification"
+        ],
+        "Establish Accounts": [
+            "Establish Accounts",
+            "Establish Accounts: Email Accounts",
+            "Establish Accounts: Social Media Accounts",
+            "Establish Accounts: Cloud Accounts"
+        ],
+        "Gather Victim Identity Information": [
+            "Gather Victim Identity Information",
+            "Gather Victim Identity Information: Email Addresses",
+            "Gather Victim Identity Information: Employee Names",
+            "Gather Victim Identity Information: Credentials"
+        ],
+        "Credentials from Password Stores": [
+            "Credentials from Password Stores",
+            "Credentials from Password Stores: Securityd Memory",
+            "Credentials from Password Stores: Keychain",
+            "Credentials from Password Stores: Password Managers",
+            "Credentials from Password Stores: Windows Credential Manager",
+            "Credentials from Password Stores: Credentials from Web Browsers",
+            "Credentials from Password Stores: Cloud Secrets Management Stores"
+        ],
+        "Compromise Infrastructure": [
+            "Compromise Infrastructure",
+            "Compromise Infrastructure: Server",
+            "Compromise Infrastructure: Domains",
+            "Compromise Infrastructure: Virtual Private Server",
+            "Compromise Infrastructure: Network Devices",
+            "Compromise Infrastructure: Web Services",
+            "Compromise Infrastructure: Serverless",
+            "Compromise Infrastructure: DNS Server",
+            "Compromise Infrastructure: Botnet"
+        ],
+        "Indicator Removal": [
+            "Indicator Removal",
+            "Indicator Removal: Clear Mailbox Data",
+            "Indicator Removal: Network Share Connection Removal",
+            "Indicator Removal: Clear Windows Event Logs",
+            "Indicator Removal: Clear Command History",
+            "Indicator Removal: Relocate Malware",
+            "Indicator Removal: Clear Persistence",
+            "Indicator Removal: Timestomp",
+            "Indicator Removal: Clear Linux or Mac System Logs",
+            "Indicator Removal: File Deletion",
+            "Indicator Removal: Clear Network Connection History and Configurations"
+        ],
+        "Account Manipulation": [
+            "Account Manipulation",
+            "Account Manipulation: SSH Authorized Keys",
+            "Account Manipulation: Additional Cloud Credentials",
+            "Account Manipulation: Device Registration",
+            "Account Manipulation: Additional Cloud Roles",
+            "Account Manipulation: Additional Container Cluster Roles",
+            "Account Manipulation: Additional Email Delegate Permissions",
+            "Account Manipulation: Additional Local or Domain Groups"
+        ],
+        "Process Injection": [
+            "Process Injection",
+            "Process Injection: Proc Memory",
+            "Process Injection: Portable Executable Injection",
+            "Process Injection: Process Doppelgänging",
+            "Process Injection: Ptrace System Calls",
+            "Process Injection: Thread Execution Hijacking",
+            "Process Injection: Extra Window Memory Injection",
+            "Process Injection: ListPlanting",
+            "Process Injection: Asynchronous Procedure Call",
+            "Process Injection: VDSO Hijacking",
+            "Process Injection: Dynamic-link Library Injection",
+            "Process Injection: Thread Local Storage",
+            "Process Injection: Process Hollowing"
+        ],
+        "Use Alternate Authentication Material": [
+            "Use Alternate Authentication Material",
+            "Use Alternate Authentication Material: Pass the Hash",
+            "Use Alternate Authentication Material: Pass the Ticket",
+            "Use Alternate Authentication Material: Web Session Cookie",
+            "Use Alternate Authentication Material: Application Access Token"
+        ],
+        "Defacement": [
+            "Defacement",
+            "Defacement: External Defacement",
+            "Defacement: Internal Defacement"
+        ],
+        "Endpoint Denial of Service": [
+            "Endpoint Denial of Service",
+            "Endpoint Denial of Service: Application Exhaustion Flood",
+            "Endpoint Denial of Service: OS Exhaustion Flood",
+            "Endpoint Denial of Service: Application or System Exploitation",
+            "Endpoint Denial of Service: Service Exhaustion Flood"
+        ],
+        "Network Boundary Bridging": [
+            "Network Boundary Bridging",
+            "Network Boundary Bridging: Network Address Translation Traversal"
+        ],
+        "Brute Force": [
+            "Brute Force",
+            "Brute Force: Credential Stuffing",
+            "Brute Force: Password Spraying",
+            "Brute Force: Password Cracking",
+            "Brute Force: Password Guessing"
+        ],
+        "Search Open Websites/Domains": [
+            "Search Open Websites/Domains",
+            "Search Open Websites/Domains: Social Media",
+            "Search Open Websites/Domains: Search Engines",
+            "Search Open Websites/Domains: Code Repositories"
+        ],
+        "Create Account": [
+            "Create Account",
+            "Create Account: Cloud Account",
+            "Create Account: Domain Account",
+            "Create Account: Local Account"
+        ],
+        "Archive Collected Data": [
+            "Archive Collected Data",
+            "Archive Collected Data: Archive via Library",
+            "Archive Collected Data: Archive via Custom Method",
+            "Archive Collected Data: Archive via Utility"
+        ],
+        "Compromise Accounts": [
+            "Compromise Accounts",
+            "Compromise Accounts: Social Media Accounts",
+            "Compromise Accounts: Email Accounts",
+            "Compromise Accounts: Cloud Accounts"
+        ],
+        "Remote Services": [
+            "Remote Services",
+            "Remote Services: Windows Remote Management",
+            "Remote Services: Distributed Component Object Model",
+            "Remote Services: SMB/Windows Admin Shares",
+            "Remote Services: Remote Desktop Protocol",
+            "Remote Services: Cloud Services",
+            "Remote Services: SSH",
+            "Remote Services: Direct Cloud VM Connections",
+            "Remote Services: VNC"
+        ],
+        "Automated Exfiltration": [
+            "Automated Exfiltration",
+            "Automated Exfiltration: Traffic Duplication"
+        ],
+        "Domain or Tenant Policy Modification": [
+            "Domain or Tenant Policy Modification",
+            "Domain or Tenant Policy Modification: Trust Modification",
+            "Domain or Tenant Policy Modification: Group Policy Modification"
+        ],
+        "Search Closed Sources": [
+            "Search Closed Sources",
+            "Search Closed Sources: Threat Intel Vendors",
+            "Search Closed Sources: Purchase Technical Data"
+        ],
+        "Obfuscated Files or Information": [
+            "Obfuscated Files or Information",
+            "Obfuscated Files or Information: Software Packing",
+            "Obfuscated Files or Information: Stripped Payloads",
+            "Obfuscated Files or Information: LNK Icon Smuggling",
+            "Obfuscated Files or Information: Binary Padding",
+            "Obfuscated Files or Information: HTML Smuggling",
+            "Obfuscated Files or Information: Polymorphic Code",
+            "Obfuscated Files or Information: Compile After Delivery",
+            "Obfuscated Files or Information: Indicator Removal from Tools",
+            "Obfuscated Files or Information: Encrypted/Encoded File",
+            "Obfuscated Files or Information: Command Obfuscation",
+            "Obfuscated Files or Information: Dynamic API Resolution",
+            "Obfuscated Files or Information: Embedded Payloads",
+            "Obfuscated Files or Information: Fileless Storage",
+            "Obfuscated Files or Information: Steganography"
+        ],
+        "Data Encoding": [
+            "Data Encoding",
+            "Data Encoding: Non-Standard Encoding",
+            "Data Encoding: Standard Encoding"
+        ],
+        "Hide Artifacts": [
+            "Hide Artifacts",
+            "Hide Artifacts: Hidden File System",
+            "Hide Artifacts: Hidden Files and Directories",
+            "Hide Artifacts: Resource Forking",
+            "Hide Artifacts: Email Hiding Rules",
+            "Hide Artifacts: Ignore Process Interrupts",
+            "Hide Artifacts: Process Argument Spoofing",
+            "Hide Artifacts: VBA Stomping",
+            "Hide Artifacts: NTFS File Attributes",
+            "Hide Artifacts: Hidden Window",
+            "Hide Artifacts: Run Virtual Instance",
+            "Hide Artifacts: File/Path Exclusions",
+            "Hide Artifacts: Hidden Users"
+        ],
+        "Remote Service Session Hijacking": [
+            "Remote Service Session Hijacking",
+            "Remote Service Session Hijacking: SSH Hijacking",
+            "Remote Service Session Hijacking: RDP Hijacking"
+        ],
+        "Gather Victim Host Information": [
+            "Gather Victim Host Information",
+            "Gather Victim Host Information: Software",
+            "Gather Victim Host Information: Firmware",
+            "Gather Victim Host Information: Client Configurations",
+            "Gather Victim Host Information: Hardware"
+        ],
+        "Modify Cloud Compute Infrastructure": [
+            "Modify Cloud Compute Infrastructure",
+            "Modify Cloud Compute Infrastructure: Create Snapshot",
+            "Modify Cloud Compute Infrastructure: Modify Cloud Compute Configurations",
+            "Modify Cloud Compute Infrastructure: Revert Cloud Instance",
+            "Modify Cloud Compute Infrastructure: Create Cloud Instance",
+            "Modify Cloud Compute Infrastructure: Delete Cloud Instance"
+        ],
+        "Input Capture": [
+            "Input Capture",
+            "Input Capture: Web Portal Capture",
+            "Input Capture: Keylogging",
+            "Input Capture: GUI Input Capture",
+            "Input Capture: Credential API Hooking"
+        ],
+        "Forge Web Credentials": [
+            "Forge Web Credentials",
+            "Forge Web Credentials: SAML Tokens",
+            "Forge Web Credentials: Web Cookies"
+        ],
+        "Exfiltration Over Other Network Medium": [
+            "Exfiltration Over Other Network Medium",
+            "Exfiltration Over Other Network Medium: Exfiltration Over Bluetooth"
+        ],
+        "Stage Capabilities": [
+            "Stage Capabilities",
+            "Stage Capabilities: Upload Tool",
+            "Stage Capabilities: Install Digital Certificate",
+            "Stage Capabilities: Drive-by Target",
+            "Stage Capabilities: Upload Malware",
+            "Stage Capabilities: SEO Poisoning",
+            "Stage Capabilities: Link Target"
+        ],
+        "Valid Accounts": [
+            "Valid Accounts",
+            "Valid Accounts: Default Accounts",
+            "Valid Accounts: Cloud Accounts",
+            "Valid Accounts: Local Accounts",
+            "Valid Accounts: Domain Accounts"
+        ],
+        "Exfiltration Over Alternative Protocol": [
+            "Exfiltration Over Alternative Protocol",
+            "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol",
+            "Exfiltration Over Alternative Protocol: Exfiltration Over Symmetric Encrypted Non-C2 Protocol",
+            "Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol"
+        ],
+        "Gather Victim Network Information": [
+            "Gather Victim Network Information",
+            "Gather Victim Network Information: Network Trust Dependencies",
+            "Gather Victim Network Information: Network Topology",
+            "Gather Victim Network Information: Network Security Appliances",
+            "Gather Victim Network Information: Domain Properties",
+            "Gather Victim Network Information: IP Addresses",
+            "Gather Victim Network Information: DNS"
+        ],
+        "OS Credential Dumping": [
+            "OS Credential Dumping",
+            "OS Credential Dumping: LSA Secrets",
+            "OS Credential Dumping: Proc Filesystem",
+            "OS Credential Dumping: /etc/passwd and /etc/shadow",
+            "OS Credential Dumping: LSASS Memory",
+            "OS Credential Dumping: NTDS",
+            "OS Credential Dumping: Cached Domain Credentials",
+            "OS Credential Dumping: Security Account Manager",
+            "OS Credential Dumping: DCSync"
+        ],
+        "Data Manipulation": [
+            "Data Manipulation",
+            "Data Manipulation: Transmitted Data Manipulation",
+            "Data Manipulation: Runtime Data Manipulation",
+            "Data Manipulation: Stored Data Manipulation"
+        ],
+        "Data Destruction": [
+            "Data Destruction",
+            "Data Destruction: Lifecycle-Triggered Deletion"
+        ],
+        "Execution Guardrails": [
+            "Execution Guardrails",
+            "Execution Guardrails: Mutual Exclusion",
+            "Execution Guardrails: Environmental Keying"
+        ],
+        "Trusted Developer Utilities Proxy Execution": [
+            "Trusted Developer Utilities Proxy Execution",
+            "Trusted Developer Utilities Proxy Execution: MSBuild",
+            "Trusted Developer Utilities Proxy Execution: ClickOnce"
+        ],
+        "User Execution": [
+            "User Execution",
+            "User Execution: Malicious File",
+            "User Execution: Malicious Link",
+            "User Execution: Malicious Image"
+        ],
+        "Hijack Execution Flow": [
+            "Hijack Execution Flow",
+            "Hijack Execution Flow: AppDomainManager",
+            "Hijack Execution Flow: Path Interception by Unquoted Path",
+            "Hijack Execution Flow: Dynamic Linker Hijacking",
+            "Hijack Execution Flow: COR_PROFILER",
+            "Hijack Execution Flow: Dylib Hijacking",
+            "Hijack Execution Flow: Path Interception by Search Order Hijacking",
+            "Hijack Execution Flow: Services Registry Permissions Weakness",
+            "Hijack Execution Flow: Path Interception by PATH Environment Variable",
+            "Hijack Execution Flow: DLL Side-Loading",
+            "Hijack Execution Flow: Executable Installer File Permissions Weakness",
+            "Hijack Execution Flow: Services File Permissions Weakness",
+            "Hijack Execution Flow: KernelCallbackTable",
+            "Hijack Execution Flow: DLL Search Order Hijacking"
+        ],
+        "Supply Chain Compromise": [
+            "Supply Chain Compromise",
+            "Supply Chain Compromise: Compromise Software Dependencies and Development Tools",
+            "Supply Chain Compromise: Compromise Hardware Supply Chain",
+            "Supply Chain Compromise: Compromise Software Supply Chain"
+        ],
+        "Modify Authentication Process": [
+            "Modify Authentication Process",
+            "Modify Authentication Process: Multi-Factor Authentication",
+            "Modify Authentication Process: Network Provider DLL",
+            "Modify Authentication Process: Hybrid Identity",
+            "Modify Authentication Process: Password Filter DLL",
+            "Modify Authentication Process: Network Device Authentication",
+            "Modify Authentication Process: Reversible Encryption",
+            "Modify Authentication Process: Domain Controller Authentication",
+            "Modify Authentication Process: Conditional Access Policies",
+            "Modify Authentication Process: Pluggable Authentication Modules"
+        ],
+        "Modify System Image": [
+            "Modify System Image",
+            "Modify System Image: Downgrade System Image",
+            "Modify System Image: Patch System Image"
+        ],
+        "Data from Configuration Repository": [
+            "Data from Configuration Repository",
+            "Data from Configuration Repository: SNMP (MIB Dump)",
+            "Data from Configuration Repository: Network Device Configuration Dump"
+        ],
+        "Obtain Capabilities": [
+            "Obtain Capabilities",
+            "Obtain Capabilities: Exploits",
+            "Obtain Capabilities: Malware",
+            "Obtain Capabilities: Vulnerabilities",
+            "Obtain Capabilities: Digital Certificates",
+            "Obtain Capabilities: Tool",
+            "Obtain Capabilities: Code Signing Certificates",
+            "Obtain Capabilities: Artificial Intelligence"
+        ],
+        "Exfiltration Over Web Service": [
+            "Exfiltration Over Web Service",
+            "Exfiltration Over Web Service: Exfiltration Over Webhook",
+            "Exfiltration Over Web Service: Exfiltration to Text Storage Sites",
+            "Exfiltration Over Web Service: Exfiltration to Cloud Storage",
+            "Exfiltration Over Web Service: Exfiltration to Code Repository"
+        ],
+        "Resource Hijacking": [
+            "Resource Hijacking",
+            "Resource Hijacking: Cloud Service Hijacking",
+            "Resource Hijacking: Bandwidth Hijacking",
+            "Resource Hijacking: SMS Pumping",
+            "Resource Hijacking: Compute Hijacking"
+        ],
+        "Dynamic Resolution": [
+            "Dynamic Resolution",
+            "Dynamic Resolution: Domain Generation Algorithms",
+            "Dynamic Resolution: DNS Calculation",
+            "Dynamic Resolution: Fast Flux DNS"
+        ],
+        "Data from Information Repositories": [
+            "Data from Information Repositories",
+            "Data from Information Repositories: Messaging Applications",
+            "Data from Information Repositories: Customer Relationship Management Software",
+            "Data from Information Repositories: Sharepoint",
+            "Data from Information Repositories: Code Repositories",
+            "Data from Information Repositories: Confluence"
+        ],
+        "Boot or Logon Initialization Scripts": [
+            "Boot or Logon Initialization Scripts",
+            "Boot or Logon Initialization Scripts: Startup Items",
+            "Boot or Logon Initialization Scripts: Logon Script (Windows)",
+            "Boot or Logon Initialization Scripts: Login Hook",
+            "Boot or Logon Initialization Scripts: Network Logon Script",
+            "Boot or Logon Initialization Scripts: RC Scripts"
+        ],
+        "System Binary Proxy Execution": [
+            "System Binary Proxy Execution",
+            "System Binary Proxy Execution: Msiexec",
+            "System Binary Proxy Execution: CMSTP",
+            "System Binary Proxy Execution: InstallUtil",
+            "System Binary Proxy Execution: Regsvr32",
+            "System Binary Proxy Execution: Control Panel",
+            "System Binary Proxy Execution: Regsvcs/Regasm",
+            "System Binary Proxy Execution: Electron Applications",
+            "System Binary Proxy Execution: Compiled HTML File",
+            "System Binary Proxy Execution: Mshta",
+            "System Binary Proxy Execution: Mavinject",
+            "System Binary Proxy Execution: Verclsid",
+            "System Binary Proxy Execution: Odbcconf",
+            "System Binary Proxy Execution: MMC",
+            "System Binary Proxy Execution: Rundll32"
+        ],
+        "Command and Scripting Interpreter": [
+            "Command and Scripting Interpreter",
+            "Command and Scripting Interpreter: AutoHotKey & AutoIT",
+            "Command and Scripting Interpreter: PowerShell",
+            "Command and Scripting Interpreter: Unix Shell",
+            "Command and Scripting Interpreter: AppleScript",
+            "Command and Scripting Interpreter: Lua",
+            "Command and Scripting Interpreter: JavaScript",
+            "Command and Scripting Interpreter: Windows Command Shell",
+            "Command and Scripting Interpreter: Cloud API",
+            "Command and Scripting Interpreter: Visual Basic",
+            "Command and Scripting Interpreter: Python",
+            "Command and Scripting Interpreter: Network Device CLI"
+        ],
+        "Active Scanning": [
+            "Active Scanning",
+            "Active Scanning: Wordlist Scanning",
+            "Active Scanning: Vulnerability Scanning",
+            "Active Scanning: Scanning IP Blocks"
+        ],
+        "Masquerading": [
+            "Masquerading",
+            "Masquerading: Match Legitimate Name or Location",
+            "Masquerading: Masquerade Account Name",
+            "Masquerading: Invalid Code Signature",
+            "Masquerading: Double File Extension",
+            "Masquerading: Break Process Trees",
+            "Masquerading: Rename System Utilities",
+            "Masquerading: Space after Filename",
+            "Masquerading: Right-to-Left Override",
+            "Masquerading: Masquerade File Type",
+            "Masquerading: Masquerade Task or Service"
+        ],
+        "Account Discovery": [
+            "Account Discovery",
+            "Account Discovery: Domain Account",
+            "Account Discovery: Email Account",
+            "Account Discovery: Cloud Account",
+            "Account Discovery: Local Account"
+        ],
+        "Scheduled Task/Job": [
+            "Scheduled Task/Job",
+            "Scheduled Task/Job: Container Orchestration Job",
+            "Scheduled Task/Job: Scheduled Task",
+            "Scheduled Task/Job: At",
+            "Scheduled Task/Job: Systemd Timers",
+            "Scheduled Task/Job: Cron"
+        ],
+        "Encrypted Channel": [
+            "Encrypted Channel",
+            "Encrypted Channel: Asymmetric Cryptography",
+            "Encrypted Channel: Symmetric Cryptography"
+        ],
+        "Event Triggered Execution": [
+            "Event Triggered Execution",
+            "Event Triggered Execution: Component Object Model Hijacking",
+            "Event Triggered Execution: Udev Rules",
+            "Event Triggered Execution: Unix Shell Configuration Modification",
+            "Event Triggered Execution: Screensaver",
+            "Event Triggered Execution: Installer Packages",
+            "Event Triggered Execution: Emond",
+            "Event Triggered Execution: Netsh Helper DLL",
+            "Event Triggered Execution: Application Shimming",
+            "Event Triggered Execution: Windows Management Instrumentation Event Subscription",
+            "Event Triggered Execution: AppInit DLLs",
+            "Event Triggered Execution: Trap",
+            "Event Triggered Execution: PowerShell Profile",
+            "Event Triggered Execution: Change Default File Association",
+            "Event Triggered Execution: AppCert DLLs",
+            "Event Triggered Execution: Accessibility Features",
+            "Event Triggered Execution: LC_LOAD_DYLIB Addition",
+            "Event Triggered Execution: Image File Execution Options Injection"
+        ],
+        "File and Directory Permissions Modification": [
+            "File and Directory Permissions Modification",
+            "File and Directory Permissions Modification: Windows File and Directory Permissions Modification",
+            "File and Directory Permissions Modification: Linux and Mac File and Directory Permissions Modification"
+        ],
+        "Phishing": [
+            "Phishing",
+            "Phishing: Spearphishing Voice",
+            "Phishing: Spearphishing Attachment",
+            "Phishing: Spearphishing via Service",
+            "Phishing: Spearphishing Link"
+        ],
+        "System Services": [
+            "System Services",
+            "System Services: Service Execution",
+            "System Services: Launchctl"
+        ],
+        "Virtualization/Sandbox Evasion": [
+            "Virtualization/Sandbox Evasion",
+            "Virtualization/Sandbox Evasion: System Checks",
+            "Virtualization/Sandbox Evasion: User Activity Based Checks",
+            "Virtualization/Sandbox Evasion: Time Based Evasion"
+        ],
+        "Steal or Forge Kerberos Tickets": [
+            "Steal or Forge Kerberos Tickets",
+            "Steal or Forge Kerberos Tickets: Kerberoasting",
+            "Steal or Forge Kerberos Tickets: AS-REP Roasting",
+            "Steal or Forge Kerberos Tickets: Ccache Files",
+            "Steal or Forge Kerberos Tickets: Golden Ticket",
+            "Steal or Forge Kerberos Tickets: Silver Ticket"
+        ]
+    },
+    "mobile": {
+        "Credentials from Password Store": [
+            "Credentials from Password Store",
+            "Credentials from Password Store: Keychain"
+        ],
+        "Event Triggered Execution": [
+            "Event Triggered Execution",
+            "Event Triggered Execution: Broadcast Receivers"
+        ],
+        "Masquerading": [
+            "Masquerading",
+            "Masquerading: Match Legitimate Name or Location"
+        ],
+        "Web Service": [
+            "Web Service",
+            "Web Service: Bidirectional Communication",
+            "Web Service: Dead Drop Resolver",
+            "Web Service: One-Way Communication"
+        ],
+        "Hijack Execution Flow": [
+            "Hijack Execution Flow",
+            "Hijack Execution Flow: System Runtime API Hijacking"
+        ],
+        "Execution Guardrails": [
+            "Execution Guardrails",
+            "Execution Guardrails: Geofencing"
+        ],
+        "Dynamic Resolution": [
+            "Dynamic Resolution",
+            "Dynamic Resolution: Domain Generation Algorithms"
+        ],
+        "Indicator Removal on Host": [
+            "Indicator Removal on Host",
+            "Indicator Removal on Host: Disguise Root/Jailbreak Indicators",
+            "Indicator Removal on Host: Uninstall Malicious Application",
+            "Indicator Removal on Host: File Deletion"
+        ],
+        "Application Layer Protocol": [
+            "Application Layer Protocol",
+            "Application Layer Protocol: Web Protocols"
+        ],
+        "Software Discovery": [
+            "Software Discovery",
+            "Software Discovery: Security Software Discovery"
+        ],
+        "System Network Configuration Discovery": [
+            "System Network Configuration Discovery",
+            "System Network Configuration Discovery: Wi-Fi Discovery",
+            "System Network Configuration Discovery: Internet Connection Discovery"
+        ],
+        "Abuse Elevation Control Mechanism": [
+            "Abuse Elevation Control Mechanism",
+            "Abuse Elevation Control Mechanism: Device Administrator Permissions"
+        ],
+        "Encrypted Channel": [
+            "Encrypted Channel",
+            "Encrypted Channel: Asymmetric Cryptography",
+            "Encrypted Channel: SSL Pinning",
+            "Encrypted Channel: Symmetric Cryptography"
+        ],
+        "Impair Defenses": [
+            "Impair Defenses",
+            "Impair Defenses: Device Lockout",
+            "Impair Defenses: Prevent Application Removal",
+            "Impair Defenses: Disable or Modify Tools"
+        ],
+        "Supply Chain Compromise": [
+            "Supply Chain Compromise",
+            "Supply Chain Compromise: Compromise Hardware Supply Chain",
+            "Supply Chain Compromise: Compromise Software Supply Chain",
+            "Supply Chain Compromise: Compromise Software Dependencies and Development Tools"
+        ],
+        "Location Tracking": [
+            "Location Tracking",
+            "Location Tracking: Remote Device Management Services",
+            "Location Tracking: Impersonate SS7 Nodes"
+        ],
+        "Obfuscated Files or Information": [
+            "Obfuscated Files or Information",
+            "Obfuscated Files or Information: Software Packing",
+            "Obfuscated Files or Information: Steganography"
+        ],
+        "Input Capture": [
+            "Input Capture",
+            "Input Capture: Keylogging",
+            "Input Capture: GUI Input Capture"
+        ],
+        "Exfiltration Over Alternative Protocol": [
+            "Exfiltration Over Alternative Protocol",
+            "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol"
+        ],
+        "Subvert Trust Controls": [
+            "Subvert Trust Controls",
+            "Subvert Trust Controls: Code Signing Policy Modification"
+        ],
+        "Steal Application Access Token": [
+            "Steal Application Access Token",
+            "Steal Application Access Token: URI Hijacking"
+        ],
+        "Protected User Data": [
+            "Protected User Data",
+            "Protected User Data: Call Log",
+            "Protected User Data: Calendar Entries",
+            "Protected User Data: SMS Messages",
+            "Protected User Data: Contact List"
+        ],
+        "Command and Scripting Interpreter": [
+            "Command and Scripting Interpreter",
+            "Command and Scripting Interpreter: Unix Shell"
+        ],
+        "Process Injection": [
+            "Process Injection",
+            "Process Injection: Ptrace System Calls"
+        ],
+        "Virtualization/Sandbox Evasion": [
+            "Virtualization/Sandbox Evasion",
+            "Virtualization/Sandbox Evasion: System Checks"
+        ],
+        "Data Manipulation": [
+            "Data Manipulation",
+            "Data Manipulation: Transmitted Data Manipulation"
+        ],
+        "Hide Artifacts": [
+            "Hide Artifacts",
+            "Hide Artifacts: Suppress Application Icon",
+            "Hide Artifacts: User Evasion",
+            "Hide Artifacts: Conceal Multimedia Files"
+        ]
+    },
+    "industrial control system": {},
+    "ai system": {
+        "Search Open Technical Databases": [
+          "Search Open Technical Databases",
+          "Search Open Technical Databases: Journals and Conference Proceedings",
+          "Search Open Technical Databases: Pre-Print Repositories",
+          "Search Open Technical Databases: Technical Blogs"
+        ],
+        "Search Open AI Vulnerability Analysis": [
+          "Search Open AI Vulnerability Analysis"
+        ],
+        "Acquire Public AI Artifacts": [
+          "Acquire Public AI Artifacts",
+          "Acquire Public AI Artifacts: AI Agent Configuration",
+          "Acquire Public AI Artifacts: Datasets",
+          "Acquire Public AI Artifacts: Models"
+        ],
+        "Search Victim-Owned Websites": [
+          "Search Victim-Owned Websites"
+        ],
+        "Search Application Repositories": [
+          "Search Application Repositories"
+        ],
+        "Create Proxy AI Model": [
+          "Create Proxy AI Model",
+          "Create Proxy AI Model: Train Proxy via Gathered AI Artifacts",
+          "Create Proxy AI Model: Train Proxy via Replication",
+          "Create Proxy AI Model: Use Pre-Trained Model"
+        ],
+        "Active Scanning": [
+          "Active Scanning"
+        ],
+        "Discover AI Artifacts": [
+          "Discover AI Artifacts"
+        ],
+        "Acquire Infrastructure": [
+          "Acquire Infrastructure",
+          "Acquire Infrastructure: AI Development Workspaces",
+          "Acquire Infrastructure: AI Service Proxies",
+          "Acquire Infrastructure: Consumer Hardware",
+          "Acquire Infrastructure: Domains",
+          "Acquire Infrastructure: Physical Countermeasures",
+          "Acquire Infrastructure: Serverless"
+        ],
+        "AI Supply Chain Compromise": [
+          "AI Supply Chain Compromise",
+          "AI Supply Chain Compromise: AI Agent Tool",
+          "AI Supply Chain Compromise: AI Software",
+          "AI Supply Chain Compromise: Container Registry",
+          "AI Supply Chain Compromise: Data",
+          "AI Supply Chain Compromise: Hardware",
+          "AI Supply Chain Compromise: Model"
+        ],
+        "User Execution": [
+          "User Execution",
+          "User Execution: Malicious Link",
+          "User Execution: Malicious Package",
+          "User Execution: Poisoned AI Agent Tool",
+          "User Execution: Unsafe AI Artifacts"
+        ],
+        "Valid Accounts": [
+          "Valid Accounts"
+        ],
+        "Discover AI Model Ontology": [
+          "Discover AI Model Ontology"
+        ],
+        "Discover AI Model Family": [
+          "Discover AI Model Family"
+        ],
+        "Evade AI Model": [
+          "Evade AI Model"
+        ],
+        "Obtain Capabilities": [
+          "Obtain Capabilities",
+          "Obtain Capabilities: Adversarial AI Attack Implementations",
+          "Obtain Capabilities: Generative AI",
+          "Obtain Capabilities: Software Tools"
+        ],
+        "Develop Capabilities": [
+          "Develop Capabilities",
+          "Develop Capabilities: Adversarial AI Attacks"
+        ],
+        "Manipulate AI Model": [
+          "Manipulate AI Model",
+          "Manipulate AI Model: Embed Malware",
+          "Manipulate AI Model: Modify AI Model Architecture",
+          "Manipulate AI Model: Poison AI Model"
+        ],
+        "Publish Poisoned Datasets": [
+          "Publish Poisoned Datasets"
+        ],
+        "Poison Training Data": [
+          "Poison Training Data"
+        ],
+        "Establish Accounts": [
+          "Establish Accounts"
+        ],
+        "Exfiltration via AI Inference API": [
+          "Exfiltration via AI Inference API",
+          "Exfiltration via AI Inference API: Extract AI Model",
+          "Exfiltration via AI Inference API: Infer Training Data Membership",
+          "Exfiltration via AI Inference API: Invert AI Model"
+        ],
+        "Exfiltration via Cyber Means": [
+          "Exfiltration via Cyber Means"
+        ],
+        "Denial of AI Service": [
+          "Denial of AI Service"
+        ],
+        "Erode AI Model Integrity": [
+          "Erode AI Model Integrity"
+        ],
+        "Cost Harvesting": [
+          "Cost Harvesting",
+          "Cost Harvesting: Agentic Resource Consumption",
+          "Cost Harvesting: Excessive Queries",
+          "Cost Harvesting: Resource-Intensive Queries"
+        ],
+        "AI Artifact Collection": [
+          "AI Artifact Collection"
+        ],
+        "Data from Information Repositories": [
+          "Data from Information Repositories"
+        ],
+        "Data from Local System": [
+          "Data from Local System"
+        ],
+        "AI Model Inference API Access": [
+          "AI Model Inference API Access"
+        ],
+        "Physical Environment Access": [
+          "Physical Environment Access"
+        ],
+        "Verify Attack": [
+          "Verify Attack"
+        ],
+        "Craft Adversarial Data": [
+          "Craft Adversarial Data",
+          "Craft Adversarial Data: Black-Box Optimization",
+          "Craft Adversarial Data: Black-Box Transfer",
+          "Craft Adversarial Data: Insert Backdoor Trigger",
+          "Craft Adversarial Data: Manual Modification",
+          "Craft Adversarial Data: White-Box Optimization"
+        ],
+        "Full AI Model Access": [
+          "Full AI Model Access"
+        ],
+        "Spamming AI System with Chaff Data": [
+          "Spamming AI System with Chaff Data"
+        ],
+        "AI-Enabled Product or Service": [
+          "AI-Enabled Product or Service"
+        ],
+        "External Harms": [
+          "External Harms",
+          "External Harms: AI Intellectual Property Theft",
+          "External Harms: Financial Harm",
+          "External Harms: Reputational Harm",
+          "External Harms: Societal Harm",
+          "External Harms: User Harm"
+        ],
+        "Exploit Public-Facing Application": [
+          "Exploit Public-Facing Application"
+        ],
+        "Command and Scripting Interpreter": [
+          "Command and Scripting Interpreter"
+        ],
+        "LLM Prompt Injection": [
+          "LLM Prompt Injection",
+          "LLM Prompt Injection: Direct",
+          "LLM Prompt Injection: Indirect",
+          "LLM Prompt Injection: Triggered"
+        ],
+        "Phishing": [
+          "Phishing",
+          "Phishing: Deepfake-Assisted Phishing",
+          "Phishing: Spearphishing via Social Engineering LLM"
+        ],
+        "AI Agent Tool Invocation": [
+          "AI Agent Tool Invocation"
+        ],
+        "LLM Jailbreak": [
+          "LLM Jailbreak"
+        ],
+        "Unsecured Credentials": [
+          "Unsecured Credentials"
+        ],
+        "Extract LLM System Prompt": [
+          "Extract LLM System Prompt"
+        ],
+        "LLM Data Leakage": [
+          "LLM Data Leakage"
+        ],
+        "Publish Poisoned Models": [
+          "Publish Poisoned Models"
+        ],
+        "Erode Dataset Integrity": [
+          "Erode Dataset Integrity"
+        ],
+        "Publish Hallucinated Entities": [
+          "Publish Hallucinated Entities"
+        ],
+        "LLM Prompt Self-Replication": [
+          "LLM Prompt Self-Replication"
+        ],
+        "Discover LLM Hallucinations": [
+          "Discover LLM Hallucinations"
+        ],
+        "Discover AI Model Outputs": [
+          "Discover AI Model Outputs"
+        ],
+        "Gather RAG-Indexed Targets": [
+          "Gather RAG-Indexed Targets"
+        ],
+        "LLM Prompt Crafting": [
+          "LLM Prompt Crafting"
+        ],
+        "Retrieval Content Crafting": [
+          "Retrieval Content Crafting"
+        ],
+        "LLM Trusted Output Components Manipulation": [
+          "LLM Trusted Output Components Manipulation",
+          "LLM Trusted Output Components Manipulation: Citations"
+        ],
+        "LLM Prompt Obfuscation": [
+          "LLM Prompt Obfuscation"
+        ],
+        "Discover LLM System Information": [
+          "Discover LLM System Information",
+          "Discover LLM System Information: Special Character Sets",
+          "Discover LLM System Information: System Instruction Keywords",
+          "Discover LLM System Information: System Prompt"
+        ],
+        "RAG Poisoning": [
+          "RAG Poisoning"
+        ],
+        "False RAG Entry Injection": [
+          "False RAG Entry Injection"
+        ],
+        "Reverse Shell": [
+          "Reverse Shell"
+        ],
+        "Impersonation": [
+          "Impersonation"
+        ],
+        "Masquerading": [
+          "Masquerading"
+        ],
+        "Cloud Service Discovery": [
+          "Cloud Service Discovery"
+        ],
+        "Corrupt AI Model": [
+          "Corrupt AI Model"
+        ],
+        "LLM Response Rendering": [
+          "LLM Response Rendering"
+        ],
+        "Drive-by Compromise": [
+          "Drive-by Compromise"
+        ],
+        "Stage Capabilities": [
+          "Stage Capabilities"
+        ],
+        "AI Agent Context Poisoning": [
+          "AI Agent Context Poisoning",
+          "AI Agent Context Poisoning: Memory",
+          "AI Agent Context Poisoning: Thread"
+        ],
+        "Modify AI Agent Configuration": [
+          "Modify AI Agent Configuration"
+        ],
+        "RAG Credential Harvesting": [
+          "RAG Credential Harvesting"
+        ],
+        "Credentials from AI Agent Configuration": [
+          "Credentials from AI Agent Configuration"
+        ],
+        "Discover AI Agent Configuration": [
+          "Discover AI Agent Configuration",
+          "Discover AI Agent Configuration: Activation Triggers",
+          "Discover AI Agent Configuration: Call Chains",
+          "Discover AI Agent Configuration: Embedded Knowledge",
+          "Discover AI Agent Configuration: Tool Definitions"
+        ],
+        "Data from AI Services": [
+          "Data from AI Services",
+          "Data from AI Services: AI Agent Tools",
+          "Data from AI Services: RAG Databases"
+        ],
+        "Exfiltration via AI Agent Tool Invocation": [
+          "Exfiltration via AI Agent Tool Invocation"
+        ],
+        "Gather Victim Identity Information": [
+          "Gather Victim Identity Information"
+        ],
+        "Generate Deepfakes": [
+          "Generate Deepfakes"
+        ],
+        "Process Discovery": [
+          "Process Discovery"
+        ],
+        "OS Credential Dumping": [
+          "OS Credential Dumping"
+        ],
+        "Use Alternate Authentication Material": [
+          "Use Alternate Authentication Material",
+          "Use Alternate Authentication Material: Application Access Token"
+        ],
+        "Manipulate User LLM Chat History": [
+          "Manipulate User LLM Chat History"
+        ],
+        "Prompt Infiltration via Public-Facing Application": [
+          "Prompt Infiltration via Public-Facing Application"
+        ],
+        "Delay Execution of LLM Instructions": [
+          "Delay Execution of LLM Instructions"
+        ],
+        "Search Open Websites/Domains": [
+          "Search Open Websites/Domains",
+          "Search Open Websites/Domains: Code Repositories"
+        ],
+        "AI Service API": [
+          "AI Service API"
+        ],
+        "Virtualization/Sandbox Evasion": [
+          "Virtualization/Sandbox Evasion"
+        ],
+        "AI Agent Tool Credential Harvesting": [
+          "AI Agent Tool Credential Harvesting"
+        ],
+        "AI Agent Tool Data Poisoning": [
+          "AI Agent Tool Data Poisoning"
+        ],
+        "AI Agent Clickbait": [
+          "AI Agent Clickbait"
+        ],
+        "Data Destruction via AI Agent Tool Invocation": [
+          "Data Destruction via AI Agent Tool Invocation"
+        ],
+        "Generate Malicious Commands": [
+          "Generate Malicious Commands"
+        ],
+        "Deploy AI Agent": [
+          "Deploy AI Agent"
+        ],
+        "Publish Poisoned AI Agent Tool": [
+          "Publish Poisoned AI Agent Tool"
+        ],
+        "Escape to Host": [
+          "Escape to Host"
+        ],
+        "Exploitation for Credential Access": [
+          "Exploitation for Credential Access"
+        ],
+        "Exploitation for Defense Evasion": [
+          "Exploitation for Defense Evasion"
+        ],
+        "AI Agent": [
+          "AI Agent"
+        ],
+        "AI Supply Chain Rug Pull": [
+          "AI Supply Chain Rug Pull"
+        ],
+        "AI Agent Tool Poisoning": [
+          "AI Agent Tool Poisoning"
+        ],
+        "AI Supply Chain Reputation Inflation": [
+          "AI Supply Chain Reputation Inflation"
+        ],
+        "Machine Compromise": [
+          "Machine Compromise",
+          "Machine Compromise: AI Artifacts",
+          "Machine Compromise: Local AI Agent"
+        ]
+    }
+}

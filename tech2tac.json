@@ -1,0 +1,3334 @@
+{
+    "enterprise": {
+        "Supply Chain Compromise": [
+            "Initial Access"
+        ],
+        "Execution Guardrails": [
+            "Defense Evasion"
+        ],
+        "Scheduled Task/Job: Cron": [
+            "Execution",
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Search Open Technical Databases: Scan Databases": [
+            "Reconnaissance"
+        ],
+        "Process Injection": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Subvert Trust Controls: Mark-of-the-Web Bypass": [
+            "Defense Evasion"
+        ],
+        "Impair Defenses: Downgrade Attack": [
+            "Defense Evasion"
+        ],
+        "Data Encoding: Non-Standard Encoding": [
+            "Command and Control"
+        ],
+        "Masquerading: Match Legitimate Name or Location": [
+            "Defense Evasion"
+        ],
+        "Adversary-in-the-Middle": [
+            "Credential Access",
+            "Collection"
+        ],
+        "Impair Defenses: Disable or Modify Cloud Logs": [
+            "Defense Evasion"
+        ],
+        "Server Software Component": [
+            "Persistence"
+        ],
+        "Container Administration Command": [
+            "Execution"
+        ],
+        "Software Discovery: Security Software Discovery": [
+            "Discovery"
+        ],
+        "Obfuscated Files or Information: Software Packing": [
+            "Defense Evasion"
+        ],
+        "OS Credential Dumping: NTDS": [
+            "Credential Access"
+        ],
+        "Web Service": [
+            "Command and Control"
+        ],
+        "Obfuscated Files or Information: Steganography": [
+            "Defense Evasion"
+        ],
+        "Stage Capabilities": [
+            "Resource Development"
+        ],
+        "Command and Scripting Interpreter": [
+            "Execution"
+        ],
+        "Create or Modify System Process: Windows Service": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Search Open Websites/Domains: Code Repositories": [
+            "Reconnaissance"
+        ],
+        "Develop Capabilities: Malware": [
+            "Resource Development"
+        ],
+        "Create or Modify System Process: Systemd Service": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Device Driver Discovery": [
+            "Discovery"
+        ],
+        "Phishing: Spearphishing Voice": [
+            "Initial Access"
+        ],
+        "Endpoint Denial of Service: Application or System Exploitation": [
+            "Impact"
+        ],
+        "Archive Collected Data: Archive via Custom Method": [
+            "Collection"
+        ],
+        "Exploitation for Client Execution": [
+            "Execution"
+        ],
+        "Remote Services: Direct Cloud VM Connections": [
+            "Lateral Movement"
+        ],
+        "Event Triggered Execution: PowerShell Profile": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Transfer Data to Cloud Account": [
+            "Exfiltration"
+        ],
+        "Stage Capabilities: Drive-by Target": [
+            "Resource Development"
+        ],
+        "Hijack Execution Flow: DLL Side-Loading": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Acquire Infrastructure: Server": [
+            "Resource Development"
+        ],
+        "Compromise Infrastructure: DNS Server": [
+            "Resource Development"
+        ],
+        "Hijack Execution Flow: COR_PROFILER": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Firmware Corruption": [
+            "Impact"
+        ],
+        "Cloud Service Discovery": [
+            "Discovery"
+        ],
+        "Resource Hijacking: Bandwidth Hijacking": [
+            "Impact"
+        ],
+        "Windows Management Instrumentation": [
+            "Execution"
+        ],
+        "Boot or Logon Autostart Execution: Shortcut Modification": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Search Open Technical Databases: Digital Certificates": [
+            "Reconnaissance"
+        ],
+        "Data from Configuration Repository: Network Device Configuration Dump": [
+            "Collection"
+        ],
+        "Modify Authentication Process: Reversible Encryption": [
+            "Credential Access",
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Supply Chain Compromise: Compromise Software Dependencies and Development Tools": [
+            "Initial Access"
+        ],
+        "Password Policy Discovery": [
+            "Discovery"
+        ],
+        "Internal Spearphishing": [
+            "Lateral Movement"
+        ],
+        "Boot or Logon Autostart Execution": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Domain Trust Discovery": [
+            "Discovery"
+        ],
+        "Hijack Execution Flow: Services File Permissions Weakness": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Non-Standard Port": [
+            "Command and Control"
+        ],
+        "System Script Proxy Execution: SyncAppvPublishingServer": [
+            "Defense Evasion"
+        ],
+        "Data Manipulation": [
+            "Impact"
+        ],
+        "Disk Wipe: Disk Content Wipe": [
+            "Impact"
+        ],
+        "Data Obfuscation: Protocol or Service Impersonation": [
+            "Command and Control"
+        ],
+        "Adversary-in-the-Middle: ARP Cache Poisoning": [
+            "Credential Access",
+            "Collection"
+        ],
+        "Establish Accounts: Cloud Accounts": [
+            "Resource Development"
+        ],
+        "Input Capture: Keylogging": [
+            "Collection",
+            "Credential Access"
+        ],
+        "Software Discovery": [
+            "Discovery"
+        ],
+        "Disk Wipe": [
+            "Impact"
+        ],
+        "Command and Scripting Interpreter: PowerShell": [
+            "Execution"
+        ],
+        "Weaken Encryption: Reduce Key Space": [
+            "Defense Evasion"
+        ],
+        "Office Application Startup: Add-ins": [
+            "Persistence"
+        ],
+        "Develop Capabilities": [
+            "Resource Development"
+        ],
+        "Dynamic Resolution": [
+            "Command and Control"
+        ],
+        "Encrypted Channel": [
+            "Command and Control"
+        ],
+        "Inter-Process Communication: Dynamic Data Exchange": [
+            "Execution"
+        ],
+        "Obfuscated Files or Information: Command Obfuscation": [
+            "Defense Evasion"
+        ],
+        "Boot or Logon Autostart Execution: XDG Autostart Entries": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Subvert Trust Controls: Code Signing": [
+            "Defense Evasion"
+        ],
+        "Hide Artifacts: NTFS File Attributes": [
+            "Defense Evasion"
+        ],
+        "Proxy: Internal Proxy": [
+            "Command and Control"
+        ],
+        "Hijack Execution Flow: Dylib Hijacking": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Weaken Encryption": [
+            "Defense Evasion"
+        ],
+        "Network Share Discovery": [
+            "Discovery"
+        ],
+        "Impair Defenses": [
+            "Defense Evasion"
+        ],
+        "Virtualization/Sandbox Evasion: User Activity Based Checks": [
+            "Defense Evasion",
+            "Discovery"
+        ],
+        "Establish Accounts": [
+            "Resource Development"
+        ],
+        "Gather Victim Org Information: Identify Roles": [
+            "Reconnaissance"
+        ],
+        "Log Enumeration": [
+            "Discovery"
+        ],
+        "Process Injection: Extra Window Memory Injection": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Abuse Elevation Control Mechanism: Temporary Elevated Cloud Access": [
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Stage Capabilities: SEO Poisoning": [
+            "Resource Development"
+        ],
+        "Account Manipulation: Additional Local or Domain Groups": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Credentials from Password Stores: Password Managers": [
+            "Credential Access"
+        ],
+        "Debugger Evasion": [
+            "Defense Evasion",
+            "Discovery"
+        ],
+        "Process Injection: Ptrace System Calls": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Gather Victim Org Information": [
+            "Reconnaissance"
+        ],
+        "Impair Defenses: Impair Command History Logging": [
+            "Defense Evasion"
+        ],
+        "Input Capture": [
+            "Collection",
+            "Credential Access"
+        ],
+        "Establish Accounts: Social Media Accounts": [
+            "Resource Development"
+        ],
+        "Gather Victim Host Information": [
+            "Reconnaissance"
+        ],
+        "Compromise Infrastructure: Virtual Private Server": [
+            "Resource Development"
+        ],
+        "Process Discovery": [
+            "Discovery"
+        ],
+        "Remote Service Session Hijacking: SSH Hijacking": [
+            "Lateral Movement"
+        ],
+        "Audio Capture": [
+            "Collection"
+        ],
+        "Data Manipulation: Runtime Data Manipulation": [
+            "Impact"
+        ],
+        "Masquerading: Masquerade Task or Service": [
+            "Defense Evasion"
+        ],
+        "Remote Services: Distributed Component Object Model": [
+            "Lateral Movement"
+        ],
+        "Command and Scripting Interpreter: Cloud API": [
+            "Execution"
+        ],
+        "Server Software Component: Web Shell": [
+            "Persistence"
+        ],
+        "Obtain Capabilities: Tool": [
+            "Resource Development"
+        ],
+        "System Binary Proxy Execution: Control Panel": [
+            "Defense Evasion"
+        ],
+        "Network Denial of Service: Direct Network Flood": [
+            "Impact"
+        ],
+        "Unsecured Credentials: Group Policy Preferences": [
+            "Credential Access"
+        ],
+        "Hijack Execution Flow: Services Registry Permissions Weakness": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Forge Web Credentials: SAML Tokens": [
+            "Credential Access"
+        ],
+        "Data Manipulation: Transmitted Data Manipulation": [
+            "Impact"
+        ],
+        "Gather Victim Network Information: Network Topology": [
+            "Reconnaissance"
+        ],
+        "Indicator Removal: Clear Network Connection History and Configurations": [
+            "Defense Evasion"
+        ],
+        "Application Layer Protocol: Mail Protocols": [
+            "Command and Control"
+        ],
+        "Exploitation for Credential Access": [
+            "Credential Access"
+        ],
+        "Obfuscated Files or Information: Fileless Storage": [
+            "Defense Evasion"
+        ],
+        "Rogue Domain Controller": [
+            "Defense Evasion"
+        ],
+        "File and Directory Permissions Modification": [
+            "Defense Evasion"
+        ],
+        "Steal or Forge Authentication Certificates": [
+            "Credential Access"
+        ],
+        "Office Application Startup: Outlook Rules": [
+            "Persistence"
+        ],
+        "Boot or Logon Initialization Scripts: Network Logon Script": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Email Collection": [
+            "Collection"
+        ],
+        "Hijack Execution Flow: AppDomainManager": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Command and Scripting Interpreter: AutoHotKey & AutoIT": [
+            "Execution"
+        ],
+        "OS Credential Dumping: LSASS Memory": [
+            "Credential Access"
+        ],
+        "Non-Application Layer Protocol": [
+            "Command and Control"
+        ],
+        "Modify Authentication Process: Network Device Authentication": [
+            "Credential Access",
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Application Layer Protocol: File Transfer Protocols": [
+            "Command and Control"
+        ],
+        "Compromise Accounts: Social Media Accounts": [
+            "Resource Development"
+        ],
+        "Peripheral Device Discovery": [
+            "Discovery"
+        ],
+        "Gather Victim Network Information: IP Addresses": [
+            "Reconnaissance"
+        ],
+        "Phishing for Information": [
+            "Reconnaissance"
+        ],
+        "Input Capture: Credential API Hooking": [
+            "Collection",
+            "Credential Access"
+        ],
+        "Command and Scripting Interpreter: AppleScript": [
+            "Execution"
+        ],
+        "Phishing: Spearphishing Link": [
+            "Initial Access"
+        ],
+        "Event Triggered Execution: Screensaver": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "System Binary Proxy Execution: Electron Applications": [
+            "Defense Evasion"
+        ],
+        "Inter-Process Communication": [
+            "Execution"
+        ],
+        "Hijack Execution Flow: KernelCallbackTable": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Event Triggered Execution: AppCert DLLs": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Event Triggered Execution: Image File Execution Options Injection": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Data Encrypted for Impact": [
+            "Impact"
+        ],
+        "Stage Capabilities: Upload Malware": [
+            "Resource Development"
+        ],
+        "System Services": [
+            "Execution"
+        ],
+        "Unsecured Credentials: Bash History": [
+            "Credential Access"
+        ],
+        "Application Layer Protocol: Publish/Subscribe Protocols": [
+            "Command and Control"
+        ],
+        "Subvert Trust Controls: Code Signing Policy Modification": [
+            "Defense Evasion"
+        ],
+        "Search Open Websites/Domains": [
+            "Reconnaissance"
+        ],
+        "Obfuscated Files or Information: Indicator Removal from Tools": [
+            "Defense Evasion"
+        ],
+        "Stage Capabilities: Link Target": [
+            "Resource Development"
+        ],
+        "Remote Services: Remote Desktop Protocol": [
+            "Lateral Movement"
+        ],
+        "Stage Capabilities: Upload Tool": [
+            "Resource Development"
+        ],
+        "Modify Authentication Process: Conditional Access Policies": [
+            "Credential Access",
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Obtain Capabilities: Exploits": [
+            "Resource Development"
+        ],
+        "Exfiltration Over Web Service: Exfiltration to Text Storage Sites": [
+            "Exfiltration"
+        ],
+        "Use Alternate Authentication Material": [
+            "Defense Evasion",
+            "Lateral Movement"
+        ],
+        "OS Credential Dumping: Security Account Manager": [
+            "Credential Access"
+        ],
+        "Process Injection: ListPlanting": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Account Discovery: Cloud Account": [
+            "Discovery"
+        ],
+        "Gather Victim Identity Information": [
+            "Reconnaissance"
+        ],
+        "Process Injection: Proc Memory": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Indicator Removal: Clear Persistence": [
+            "Defense Evasion"
+        ],
+        "Account Manipulation: Additional Cloud Roles": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Data from Information Repositories: Sharepoint": [
+            "Collection"
+        ],
+        "Boot or Logon Autostart Execution: Active Setup": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Obfuscated Files or Information: Polymorphic Code": [
+            "Defense Evasion"
+        ],
+        "Active Scanning": [
+            "Reconnaissance"
+        ],
+        "Archive Collected Data: Archive via Library": [
+            "Collection"
+        ],
+        "Boot or Logon Autostart Execution: Login Items": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Email Collection: Email Forwarding Rule": [
+            "Collection"
+        ],
+        "Supply Chain Compromise: Compromise Software Supply Chain": [
+            "Initial Access"
+        ],
+        "System Script Proxy Execution": [
+            "Defense Evasion"
+        ],
+        "Ingress Tool Transfer": [
+            "Command and Control"
+        ],
+        "Reflective Code Loading": [
+            "Defense Evasion"
+        ],
+        "Hide Artifacts: VBA Stomping": [
+            "Defense Evasion"
+        ],
+        "Remote Service Session Hijacking: RDP Hijacking": [
+            "Lateral Movement"
+        ],
+        "Modify Cloud Compute Infrastructure: Revert Cloud Instance": [
+            "Defense Evasion"
+        ],
+        "Masquerading: Masquerade Account Name": [
+            "Defense Evasion"
+        ],
+        "Boot or Logon Autostart Execution: Security Support Provider": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Multi-Stage Channels": [
+            "Command and Control"
+        ],
+        "Automated Exfiltration": [
+            "Exfiltration"
+        ],
+        "Server Software Component: IIS Components": [
+            "Persistence"
+        ],
+        "Content Injection": [
+            "Initial Access",
+            "Command and Control"
+        ],
+        "Use Alternate Authentication Material: Application Access Token": [
+            "Defense Evasion",
+            "Lateral Movement"
+        ],
+        "OS Credential Dumping: /etc/passwd and /etc/shadow": [
+            "Credential Access"
+        ],
+        "Email Collection: Local Email Collection": [
+            "Collection"
+        ],
+        "Obfuscated Files or Information: LNK Icon Smuggling": [
+            "Defense Evasion"
+        ],
+        "Automated Exfiltration: Traffic Duplication": [
+            "Exfiltration"
+        ],
+        "Acquire Infrastructure: Malvertising": [
+            "Resource Development"
+        ],
+        "Exfiltration Over Web Service": [
+            "Exfiltration"
+        ],
+        "Establish Accounts: Email Accounts": [
+            "Resource Development"
+        ],
+        "Office Application Startup": [
+            "Persistence"
+        ],
+        "Lateral Tool Transfer": [
+            "Lateral Movement"
+        ],
+        "Weaken Encryption: Disable Crypto Hardware": [
+            "Defense Evasion"
+        ],
+        "Multi-Factor Authentication Request Generation": [
+            "Credential Access"
+        ],
+        "Modify Authentication Process: Multi-Factor Authentication": [
+            "Credential Access",
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Plist File Modification": [
+            "Defense Evasion"
+        ],
+        "Create Account: Local Account": [
+            "Persistence"
+        ],
+        "System Network Configuration Discovery": [
+            "Discovery"
+        ],
+        "Indicator Removal: Clear Command History": [
+            "Defense Evasion"
+        ],
+        "Masquerading: Rename System Utilities": [
+            "Defense Evasion"
+        ],
+        "System Script Proxy Execution: PubPrn": [
+            "Defense Evasion"
+        ],
+        "Remote Services: SMB/Windows Admin Shares": [
+            "Lateral Movement"
+        ],
+        "Multi-Factor Authentication Interception": [
+            "Credential Access"
+        ],
+        "Obtain Capabilities: Vulnerabilities": [
+            "Resource Development"
+        ],
+        "Inter-Process Communication: Component Object Model": [
+            "Execution"
+        ],
+        "Search Open Technical Databases: WHOIS": [
+            "Reconnaissance"
+        ],
+        "Gather Victim Host Information: Software": [
+            "Reconnaissance"
+        ],
+        "Develop Capabilities: Exploits": [
+            "Resource Development"
+        ],
+        "System Binary Proxy Execution: Rundll32": [
+            "Defense Evasion"
+        ],
+        "Indirect Command Execution": [
+            "Defense Evasion"
+        ],
+        "Compromise Infrastructure: Domains": [
+            "Resource Development"
+        ],
+        "Forge Web Credentials": [
+            "Credential Access"
+        ],
+        "Obfuscated Files or Information: Binary Padding": [
+            "Defense Evasion"
+        ],
+        "Dynamic Resolution: DNS Calculation": [
+            "Command and Control"
+        ],
+        "Protocol Tunneling": [
+            "Command and Control"
+        ],
+        "Unsecured Credentials: Credentials In Files": [
+            "Credential Access"
+        ],
+        "Hide Artifacts: Hidden Users": [
+            "Defense Evasion"
+        ],
+        "Network Sniffing": [
+            "Credential Access",
+            "Discovery"
+        ],
+        "Obtain Capabilities: Code Signing Certificates": [
+            "Resource Development"
+        ],
+        "Masquerading: Double File Extension": [
+            "Defense Evasion"
+        ],
+        "Compromise Accounts": [
+            "Resource Development"
+        ],
+        "Boot or Logon Autostart Execution: Winlogon Helper DLL": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Implant Internal Image": [
+            "Persistence"
+        ],
+        "System Binary Proxy Execution: Regsvr32": [
+            "Defense Evasion"
+        ],
+        "Modify Cloud Compute Infrastructure: Create Snapshot": [
+            "Defense Evasion"
+        ],
+        "Network Boundary Bridging: Network Address Translation Traversal": [
+            "Defense Evasion"
+        ],
+        "Trusted Relationship": [
+            "Initial Access"
+        ],
+        "Hijack Execution Flow: Dynamic Linker Hijacking": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Gather Victim Org Information: Determine Physical Locations": [
+            "Reconnaissance"
+        ],
+        "Data from Configuration Repository: SNMP (MIB Dump)": [
+            "Collection"
+        ],
+        "Modify System Image: Patch System Image": [
+            "Defense Evasion"
+        ],
+        "Permission Groups Discovery: Local Groups": [
+            "Discovery"
+        ],
+        "Data Destruction": [
+            "Impact"
+        ],
+        "Subvert Trust Controls": [
+            "Defense Evasion"
+        ],
+        "Modify Authentication Process: Domain Controller Authentication": [
+            "Credential Access",
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "System Binary Proxy Execution: MMC": [
+            "Defense Evasion"
+        ],
+        "User Execution": [
+            "Execution"
+        ],
+        "Endpoint Denial of Service": [
+            "Impact"
+        ],
+        "Endpoint Denial of Service: Service Exhaustion Flood": [
+            "Impact"
+        ],
+        "Create or Modify System Process: Launch Daemon": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Command and Scripting Interpreter: Windows Command Shell": [
+            "Execution"
+        ],
+        "Event Triggered Execution: Trap": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Abuse Elevation Control Mechanism: Elevated Execution with Prompt": [
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "System Binary Proxy Execution: Regsvcs/Regasm": [
+            "Defense Evasion"
+        ],
+        "Impair Defenses: Disable or Modify Linux Audit System": [
+            "Defense Evasion"
+        ],
+        "Permission Groups Discovery: Domain Groups": [
+            "Discovery"
+        ],
+        "Steal or Forge Kerberos Tickets": [
+            "Credential Access"
+        ],
+        "Obfuscated Files or Information: Embedded Payloads": [
+            "Defense Evasion"
+        ],
+        "OS Credential Dumping: Cached Domain Credentials": [
+            "Credential Access"
+        ],
+        "Event Triggered Execution": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Exploitation for Defense Evasion": [
+            "Defense Evasion"
+        ],
+        "Hide Artifacts: Process Argument Spoofing": [
+            "Defense Evasion"
+        ],
+        "Hide Infrastructure": [
+            "Command and Control"
+        ],
+        "Process Injection: VDSO Hijacking": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Remote System Discovery": [
+            "Discovery"
+        ],
+        "Obtain Capabilities: Artificial Intelligence": [
+            "Resource Development"
+        ],
+        "Event Triggered Execution: Accessibility Features": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Impair Defenses: Disable or Modify System Firewall": [
+            "Defense Evasion"
+        ],
+        "Serverless Execution": [
+            "Execution"
+        ],
+        "Indicator Removal: Clear Windows Event Logs": [
+            "Defense Evasion"
+        ],
+        "Account Access Removal": [
+            "Impact"
+        ],
+        "Exfiltration Over Web Service: Exfiltration to Code Repository": [
+            "Exfiltration"
+        ],
+        "Traffic Signaling: Port Knocking": [
+            "Defense Evasion",
+            "Persistence",
+            "Command and Control"
+        ],
+        "Obfuscated Files or Information": [
+            "Defense Evasion"
+        ],
+        "Brute Force: Password Cracking": [
+            "Credential Access"
+        ],
+        "Native API": [
+            "Execution"
+        ],
+        "BITS Jobs": [
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Process Injection: Process Hollowing": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Access Token Manipulation": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Screen Capture": [
+            "Collection"
+        ],
+        "Fallback Channels": [
+            "Command and Control"
+        ],
+        "Modify Cloud Compute Infrastructure": [
+            "Defense Evasion"
+        ],
+        "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol": [
+            "Exfiltration"
+        ],
+        "Data from Information Repositories: Confluence": [
+            "Collection"
+        ],
+        "OS Credential Dumping": [
+            "Credential Access"
+        ],
+        "Search Open Technical Databases: DNS/Passive DNS": [
+            "Reconnaissance"
+        ],
+        "Application Layer Protocol: Web Protocols": [
+            "Command and Control"
+        ],
+        "Scheduled Task/Job: Systemd Timers": [
+            "Execution",
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Exploitation for Privilege Escalation": [
+            "Privilege Escalation"
+        ],
+        "Compromise Infrastructure: Network Devices": [
+            "Resource Development"
+        ],
+        "Data Destruction: Lifecycle-Triggered Deletion": [
+            "Impact"
+        ],
+        "Obtain Capabilities: Digital Certificates": [
+            "Resource Development"
+        ],
+        "Modify Cloud Compute Infrastructure: Delete Cloud Instance": [
+            "Defense Evasion"
+        ],
+        "Phishing for Information: Spearphishing Voice": [
+            "Reconnaissance"
+        ],
+        "Build Image on Host": [
+            "Defense Evasion"
+        ],
+        "Traffic Signaling": [
+            "Defense Evasion",
+            "Persistence",
+            "Command and Control"
+        ],
+        "Access Token Manipulation: Parent PID Spoofing": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Compromise Accounts: Email Accounts": [
+            "Resource Development"
+        ],
+        "Hijack Execution Flow: DLL Search Order Hijacking": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Use Alternate Authentication Material: Pass the Ticket": [
+            "Defense Evasion",
+            "Lateral Movement"
+        ],
+        "System Time Discovery": [
+            "Discovery"
+        ],
+        "Proxy: External Proxy": [
+            "Command and Control"
+        ],
+        "Impair Defenses: Indicator Blocking": [
+            "Defense Evasion"
+        ],
+        "Web Service: One-Way Communication": [
+            "Command and Control"
+        ],
+        "Impair Defenses: Disable Windows Event Logging": [
+            "Defense Evasion"
+        ],
+        "Input Capture: Web Portal Capture": [
+            "Collection",
+            "Credential Access"
+        ],
+        "Hide Artifacts: Resource Forking": [
+            "Defense Evasion"
+        ],
+        "Application Layer Protocol: DNS": [
+            "Command and Control"
+        ],
+        "Office Application Startup: Outlook Forms": [
+            "Persistence"
+        ],
+        "Adversary-in-the-Middle: LLMNR/NBT-NS Poisoning and SMB Relay": [
+            "Credential Access",
+            "Collection"
+        ],
+        "Exfiltration Over C2 Channel": [
+            "Exfiltration"
+        ],
+        "Proxy": [
+            "Command and Control"
+        ],
+        "Boot or Logon Autostart Execution: Kernel Modules and Extensions": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "File and Directory Permissions Modification: Windows File and Directory Permissions Modification": [
+            "Defense Evasion"
+        ],
+        "Hide Artifacts": [
+            "Defense Evasion"
+        ],
+        "Query Registry": [
+            "Discovery"
+        ],
+        "Steal or Forge Kerberos Tickets: Kerberoasting": [
+            "Credential Access"
+        ],
+        "Archive Collected Data: Archive via Utility": [
+            "Collection"
+        ],
+        "Compromise Infrastructure: Server": [
+            "Resource Development"
+        ],
+        "Service Stop": [
+            "Impact"
+        ],
+        "Acquire Infrastructure: DNS Server": [
+            "Resource Development"
+        ],
+        "Use Alternate Authentication Material: Pass the Hash": [
+            "Defense Evasion",
+            "Lateral Movement"
+        ],
+        "Network Service Discovery": [
+            "Discovery"
+        ],
+        "Domain or Tenant Policy Modification: Group Policy Modification": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Drive-by Compromise": [
+            "Initial Access"
+        ],
+        "Event Triggered Execution: AppInit DLLs": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Clipboard Data": [
+            "Collection"
+        ],
+        "Credentials from Password Stores: Keychain": [
+            "Credential Access"
+        ],
+        "Obtain Capabilities": [
+            "Resource Development"
+        ],
+        "Event Triggered Execution: Windows Management Instrumentation Event Subscription": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Event Triggered Execution: LC_LOAD_DYLIB Addition": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "System Network Configuration Discovery: Internet Connection Discovery": [
+            "Discovery"
+        ],
+        "Search Open Technical Databases": [
+            "Reconnaissance"
+        ],
+        "Endpoint Denial of Service: OS Exhaustion Flood": [
+            "Impact"
+        ],
+        "Brute Force: Password Guessing": [
+            "Credential Access"
+        ],
+        "Event Triggered Execution: Netsh Helper DLL": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "User Execution: Malicious File": [
+            "Execution"
+        ],
+        "Application Window Discovery": [
+            "Discovery"
+        ],
+        "File and Directory Permissions Modification: Linux and Mac File and Directory Permissions Modification": [
+            "Defense Evasion"
+        ],
+        "Scheduled Task/Job: At": [
+            "Execution",
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "System Shutdown/Reboot": [
+            "Impact"
+        ],
+        "Event Triggered Execution: Component Object Model Hijacking": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Process Injection: Process Doppelgänging": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Credentials from Password Stores: Windows Credential Manager": [
+            "Credential Access"
+        ],
+        "Exfiltration Over Other Network Medium: Exfiltration Over Bluetooth": [
+            "Exfiltration"
+        ],
+        "Masquerading: Invalid Code Signature": [
+            "Defense Evasion"
+        ],
+        "Active Scanning: Vulnerability Scanning": [
+            "Reconnaissance"
+        ],
+        "Resource Hijacking: Cloud Service Hijacking": [
+            "Impact"
+        ],
+        "Modify Registry": [
+            "Defense Evasion"
+        ],
+        "Email Collection: Remote Email Collection": [
+            "Collection"
+        ],
+        "Archive Collected Data": [
+            "Collection"
+        ],
+        "Masquerading: Break Process Trees": [
+            "Defense Evasion"
+        ],
+        "Permission Groups Discovery": [
+            "Discovery"
+        ],
+        "Create or Modify System Process: Container Service": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Pre-OS Boot: System Firmware": [
+            "Persistence",
+            "Defense Evasion"
+        ],
+        "Data Obfuscation": [
+            "Command and Control"
+        ],
+        "Execution Guardrails: Mutual Exclusion": [
+            "Defense Evasion"
+        ],
+        "Exfiltration Over Alternative Protocol: Exfiltration Over Asymmetric Encrypted Non-C2 Protocol": [
+            "Exfiltration"
+        ],
+        "Escape to Host": [
+            "Privilege Escalation"
+        ],
+        "Boot or Logon Autostart Execution: Port Monitors": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Command and Scripting Interpreter: Visual Basic": [
+            "Execution"
+        ],
+        "Web Service: Bidirectional Communication": [
+            "Command and Control"
+        ],
+        "Unsecured Credentials: Container API": [
+            "Credential Access"
+        ],
+        "Browser Session Hijacking": [
+            "Collection"
+        ],
+        "Command and Scripting Interpreter: Network Device CLI": [
+            "Execution"
+        ],
+        "System Binary Proxy Execution: Msiexec": [
+            "Defense Evasion"
+        ],
+        "Video Capture": [
+            "Collection"
+        ],
+        "Gather Victim Host Information: Client Configurations": [
+            "Reconnaissance"
+        ],
+        "Search Closed Sources": [
+            "Reconnaissance"
+        ],
+        "Boot or Logon Initialization Scripts: Logon Script (Windows)": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Phishing for Information: Spearphishing Service": [
+            "Reconnaissance"
+        ],
+        "Process Injection: Asynchronous Procedure Call": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Remote Services: Windows Remote Management": [
+            "Lateral Movement"
+        ],
+        "Server Software Component: SQL Stored Procedures": [
+            "Persistence"
+        ],
+        "Create or Modify System Process: Launch Agent": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Masquerading: Right-to-Left Override": [
+            "Defense Evasion"
+        ],
+        "Event Triggered Execution: Change Default File Association": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Scheduled Transfer": [
+            "Exfiltration"
+        ],
+        "Acquire Infrastructure: Virtual Private Server": [
+            "Resource Development"
+        ],
+        "Cloud Storage Object Discovery": [
+            "Discovery"
+        ],
+        "Stage Capabilities: Install Digital Certificate": [
+            "Resource Development"
+        ],
+        "Gather Victim Network Information: Network Trust Dependencies": [
+            "Reconnaissance"
+        ],
+        "Compromise Infrastructure: Web Services": [
+            "Resource Development"
+        ],
+        "Permission Groups Discovery: Cloud Groups": [
+            "Discovery"
+        ],
+        "Event Triggered Execution: Emond": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "System Services: Launchctl": [
+            "Execution"
+        ],
+        "Data from Network Shared Drive": [
+            "Collection"
+        ],
+        "Virtualization/Sandbox Evasion: Time Based Evasion": [
+            "Defense Evasion",
+            "Discovery"
+        ],
+        "Server Software Component: Transport Agent": [
+            "Persistence"
+        ],
+        "Search Open Websites/Domains: Social Media": [
+            "Reconnaissance"
+        ],
+        "Account Manipulation: Additional Cloud Credentials": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "User Execution: Malicious Image": [
+            "Execution"
+        ],
+        "Unused/Unsupported Cloud Regions": [
+            "Defense Evasion"
+        ],
+        "Brute Force: Credential Stuffing": [
+            "Credential Access"
+        ],
+        "Hide Artifacts: File/Path Exclusions": [
+            "Defense Evasion"
+        ],
+        "Cloud Service Dashboard": [
+            "Discovery"
+        ],
+        "Virtualization/Sandbox Evasion: System Checks": [
+            "Defense Evasion",
+            "Discovery"
+        ],
+        "Resource Hijacking: SMS Pumping": [
+            "Impact"
+        ],
+        "Access Token Manipulation: SID-History Injection": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Financial Theft": [
+            "Impact"
+        ],
+        "Office Application Startup: Office Test": [
+            "Persistence"
+        ],
+        "Data Staged: Remote Data Staging": [
+            "Collection"
+        ],
+        "Masquerading: Masquerade File Type": [
+            "Defense Evasion"
+        ],
+        "Hijack Execution Flow": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Search Open Websites/Domains: Search Engines": [
+            "Reconnaissance"
+        ],
+        "Data Manipulation: Stored Data Manipulation": [
+            "Impact"
+        ],
+        "Event Triggered Execution: Installer Packages": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Data from Configuration Repository": [
+            "Collection"
+        ],
+        "Input Capture: GUI Input Capture": [
+            "Collection",
+            "Credential Access"
+        ],
+        "Hijack Execution Flow: Path Interception by Unquoted Path": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Steal or Forge Kerberos Tickets: Ccache Files": [
+            "Credential Access"
+        ],
+        "Rootkit": [
+            "Defense Evasion"
+        ],
+        "Network Boundary Bridging": [
+            "Defense Evasion"
+        ],
+        "System Binary Proxy Execution: Compiled HTML File": [
+            "Defense Evasion"
+        ],
+        "Data Obfuscation: Junk Data": [
+            "Command and Control"
+        ],
+        "Hide Artifacts: Hidden Window": [
+            "Defense Evasion"
+        ],
+        "Exfiltration Over Web Service: Exfiltration Over Webhook": [
+            "Exfiltration"
+        ],
+        "Hardware Additions": [
+            "Initial Access"
+        ],
+        "Gather Victim Network Information: Network Security Appliances": [
+            "Reconnaissance"
+        ],
+        "Remote Services: Cloud Services": [
+            "Lateral Movement"
+        ],
+        "Pre-OS Boot: Component Firmware": [
+            "Persistence",
+            "Defense Evasion"
+        ],
+        "Scheduled Task/Job": [
+            "Execution",
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Data Transfer Size Limits": [
+            "Exfiltration"
+        ],
+        "Acquire Infrastructure: Serverless": [
+            "Resource Development"
+        ],
+        "Domain or Tenant Policy Modification: Trust Modification": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Application Layer Protocol": [
+            "Command and Control"
+        ],
+        "Deobfuscate/Decode Files or Information": [
+            "Defense Evasion"
+        ],
+        "Phishing": [
+            "Initial Access"
+        ],
+        "Indicator Removal: Clear Mailbox Data": [
+            "Defense Evasion"
+        ],
+        "Modify Cloud Compute Infrastructure: Modify Cloud Compute Configurations": [
+            "Defense Evasion"
+        ],
+        "Search Closed Sources: Threat Intel Vendors": [
+            "Reconnaissance"
+        ],
+        "Boot or Logon Autostart Execution: LSASS Driver": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Abuse Elevation Control Mechanism: Sudo and Sudo Caching": [
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Resource Hijacking: Compute Hijacking": [
+            "Impact"
+        ],
+        "Masquerading": [
+            "Defense Evasion"
+        ],
+        "Hide Artifacts: Hidden Files and Directories": [
+            "Defense Evasion"
+        ],
+        "Unsecured Credentials: Chat Messages": [
+            "Credential Access"
+        ],
+        "Process Injection: Thread Local Storage": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Subvert Trust Controls: Install Root Certificate": [
+            "Defense Evasion"
+        ],
+        "Command and Scripting Interpreter: Lua": [
+            "Execution"
+        ],
+        "Template Injection": [
+            "Defense Evasion"
+        ],
+        "Account Manipulation: Additional Container Cluster Roles": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Indicator Removal: Timestomp": [
+            "Defense Evasion"
+        ],
+        "System Binary Proxy Execution: InstallUtil": [
+            "Defense Evasion"
+        ],
+        "Gather Victim Host Information: Firmware": [
+            "Reconnaissance"
+        ],
+        "Gather Victim Network Information: Domain Properties": [
+            "Reconnaissance"
+        ],
+        "Impair Defenses: Disable or Modify Tools": [
+            "Defense Evasion"
+        ],
+        "Modify System Image": [
+            "Defense Evasion"
+        ],
+        "Access Token Manipulation: Token Impersonation/Theft": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Unsecured Credentials: Credentials in Registry": [
+            "Credential Access"
+        ],
+        "Modify System Image: Downgrade System Image": [
+            "Defense Evasion"
+        ],
+        "Subvert Trust Controls: SIP and Trust Provider Hijacking": [
+            "Defense Evasion"
+        ],
+        "Valid Accounts: Cloud Accounts": [
+            "Defense Evasion",
+            "Persistence",
+            "Privilege Escalation",
+            "Initial Access"
+        ],
+        "Endpoint Denial of Service: Application Exhaustion Flood": [
+            "Impact"
+        ],
+        "Execution Guardrails: Environmental Keying": [
+            "Defense Evasion"
+        ],
+        "System Network Configuration Discovery: Wi-Fi Discovery": [
+            "Discovery"
+        ],
+        "Dynamic Resolution: Domain Generation Algorithms": [
+            "Command and Control"
+        ],
+        "Active Scanning: Wordlist Scanning": [
+            "Reconnaissance"
+        ],
+        "Gather Victim Host Information: Hardware": [
+            "Reconnaissance"
+        ],
+        "Unsecured Credentials": [
+            "Credential Access"
+        ],
+        "Access Token Manipulation: Create Process with Token": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Create Account: Domain Account": [
+            "Persistence"
+        ],
+        "Resource Hijacking": [
+            "Impact"
+        ],
+        "Event Triggered Execution: Application Shimming": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Supply Chain Compromise: Compromise Hardware Supply Chain": [
+            "Initial Access"
+        ],
+        "External Remote Services": [
+            "Persistence",
+            "Initial Access"
+        ],
+        "Inhibit System Recovery": [
+            "Impact"
+        ],
+        "Obtain Capabilities: Malware": [
+            "Resource Development"
+        ],
+        "System Binary Proxy Execution: Mshta": [
+            "Defense Evasion"
+        ],
+        "Search Victim-Owned Websites": [
+            "Reconnaissance"
+        ],
+        "Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Exfiltration Over Physical Medium: Exfiltration over USB": [
+            "Exfiltration"
+        ],
+        "Hide Artifacts: Email Hiding Rules": [
+            "Defense Evasion"
+        ],
+        "System Location Discovery": [
+            "Discovery"
+        ],
+        "Disk Wipe: Disk Structure Wipe": [
+            "Impact"
+        ],
+        "Trusted Developer Utilities Proxy Execution: MSBuild": [
+            "Defense Evasion"
+        ],
+        "System Network Connections Discovery": [
+            "Discovery"
+        ],
+        "Data from Removable Media": [
+            "Collection"
+        ],
+        "Pre-OS Boot": [
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Exfiltration Over Alternative Protocol": [
+            "Exfiltration"
+        ],
+        "Modify Cloud Compute Infrastructure: Create Cloud Instance": [
+            "Defense Evasion"
+        ],
+        "Office Application Startup: Outlook Home Page": [
+            "Persistence"
+        ],
+        "Remote Services: VNC": [
+            "Lateral Movement"
+        ],
+        "Gather Victim Identity Information: Credentials": [
+            "Reconnaissance"
+        ],
+        "Proxy: Domain Fronting": [
+            "Command and Control"
+        ],
+        "Obfuscated Files or Information: Compile After Delivery": [
+            "Defense Evasion"
+        ],
+        "Forge Web Credentials: Web Cookies": [
+            "Credential Access"
+        ],
+        "Gather Victim Network Information: DNS": [
+            "Reconnaissance"
+        ],
+        "Create Account: Cloud Account": [
+            "Persistence"
+        ],
+        "Encrypted Channel: Symmetric Cryptography": [
+            "Command and Control"
+        ],
+        "System Binary Proxy Execution: Mavinject": [
+            "Defense Evasion"
+        ],
+        "System Owner/User Discovery": [
+            "Discovery"
+        ],
+        "User Execution: Malicious Link": [
+            "Execution"
+        ],
+        "Boot or Logon Initialization Scripts: RC Scripts": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Boot or Logon Initialization Scripts: Login Hook": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Abuse Elevation Control Mechanism: TCC Manipulation": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Command and Scripting Interpreter: Python": [
+            "Execution"
+        ],
+        "Data Staged: Local Data Staging": [
+            "Collection"
+        ],
+        "Encrypted Channel: Asymmetric Cryptography": [
+            "Command and Control"
+        ],
+        "OS Credential Dumping: DCSync": [
+            "Credential Access"
+        ],
+        "Search Open Technical Databases: CDNs": [
+            "Reconnaissance"
+        ],
+        "Credentials from Password Stores: Cloud Secrets Management Stores": [
+            "Credential Access"
+        ],
+        "Software Deployment Tools": [
+            "Execution",
+            "Lateral Movement"
+        ],
+        "Remote Services: SSH": [
+            "Lateral Movement"
+        ],
+        "Pre-OS Boot: TFTP Boot": [
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Browser Information Discovery": [
+            "Discovery"
+        ],
+        "Impair Defenses: Safe Mode Boot": [
+            "Defense Evasion"
+        ],
+        "Unsecured Credentials: Cloud Instance Metadata API": [
+            "Credential Access"
+        ],
+        "Subvert Trust Controls: Gatekeeper Bypass": [
+            "Defense Evasion"
+        ],
+        "Data from Information Repositories: Code Repositories": [
+            "Collection"
+        ],
+        "Container and Resource Discovery": [
+            "Discovery"
+        ],
+        "Group Policy Discovery": [
+            "Discovery"
+        ],
+        "Use Alternate Authentication Material: Web Session Cookie": [
+            "Defense Evasion",
+            "Lateral Movement"
+        ],
+        "Gather Victim Identity Information: Employee Names": [
+            "Reconnaissance"
+        ],
+        "Brute Force": [
+            "Credential Access"
+        ],
+        "Account Manipulation: SSH Authorized Keys": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Indicator Removal: Relocate Malware": [
+            "Defense Evasion"
+        ],
+        "Steal or Forge Kerberos Tickets: Silver Ticket": [
+            "Credential Access"
+        ],
+        "Abuse Elevation Control Mechanism": [
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Account Discovery: Domain Account": [
+            "Discovery"
+        ],
+        "Impair Defenses: Disable or Modify Cloud Firewall": [
+            "Defense Evasion"
+        ],
+        "Pre-OS Boot: ROMMONkit": [
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Shared Modules": [
+            "Execution"
+        ],
+        "Power Settings": [
+            "Persistence"
+        ],
+        "Abuse Elevation Control Mechanism: Bypass User Account Control": [
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Active Scanning: Scanning IP Blocks": [
+            "Reconnaissance"
+        ],
+        "Valid Accounts: Local Accounts": [
+            "Defense Evasion",
+            "Persistence",
+            "Privilege Escalation",
+            "Initial Access"
+        ],
+        "Trusted Developer Utilities Proxy Execution: ClickOnce": [
+            "Defense Evasion"
+        ],
+        "Create or Modify System Process": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Account Discovery": [
+            "Discovery"
+        ],
+        "Modify Cloud Resource Hierarchy": [
+            "Defense Evasion"
+        ],
+        "Modify Authentication Process": [
+            "Credential Access",
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Data Encoding: Standard Encoding": [
+            "Command and Control"
+        ],
+        "Brute Force: Password Spraying": [
+            "Credential Access"
+        ],
+        "Account Discovery: Local Account": [
+            "Discovery"
+        ],
+        "Account Manipulation": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Account Manipulation: Additional Email Delegate Permissions": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Scheduled Task/Job: Scheduled Task": [
+            "Execution",
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Phishing for Information: Spearphishing Attachment": [
+            "Reconnaissance"
+        ],
+        "Defacement": [
+            "Impact"
+        ],
+        "Direct Volume Access": [
+            "Defense Evasion"
+        ],
+        "Data Encoding": [
+            "Command and Control"
+        ],
+        "Impersonation": [
+            "Defense Evasion"
+        ],
+        "Network Denial of Service: Reflection Amplification": [
+            "Impact"
+        ],
+        "Compromise Accounts: Cloud Accounts": [
+            "Resource Development"
+        ],
+        "Abuse Elevation Control Mechanism: Setuid and Setgid": [
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Exploitation of Remote Services": [
+            "Lateral Movement"
+        ],
+        "Phishing: Spearphishing Attachment": [
+            "Initial Access"
+        ],
+        "Boot or Logon Autostart Execution: Re-opened Applications": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Gather Victim Identity Information: Email Addresses": [
+            "Reconnaissance"
+        ],
+        "Indicator Removal": [
+            "Defense Evasion"
+        ],
+        "Remote Services": [
+            "Lateral Movement"
+        ],
+        "Replication Through Removable Media": [
+            "Lateral Movement",
+            "Initial Access"
+        ],
+        "Modify Authentication Process: Pluggable Authentication Modules": [
+            "Credential Access",
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Modify Authentication Process: Hybrid Identity": [
+            "Credential Access",
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "OS Credential Dumping: Proc Filesystem": [
+            "Credential Access"
+        ],
+        "File and Directory Discovery": [
+            "Discovery"
+        ],
+        "Boot or Logon Initialization Scripts: Startup Items": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Modify Authentication Process: Password Filter DLL": [
+            "Credential Access",
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Adversary-in-the-Middle: DHCP Spoofing": [
+            "Credential Access",
+            "Collection"
+        ],
+        "Credentials from Password Stores": [
+            "Credential Access"
+        ],
+        "Command and Scripting Interpreter: Unix Shell": [
+            "Execution"
+        ],
+        "Credentials from Password Stores: Securityd Memory": [
+            "Credential Access"
+        ],
+        "Pre-OS Boot: Bootkit": [
+            "Persistence",
+            "Defense Evasion"
+        ],
+        "Cloud Administration Command": [
+            "Execution"
+        ],
+        "Gather Victim Org Information: Business Relationships": [
+            "Reconnaissance"
+        ],
+        "Acquire Infrastructure: Domains": [
+            "Resource Development"
+        ],
+        "Exfiltration Over Web Service: Exfiltration to Cloud Storage": [
+            "Exfiltration"
+        ],
+        "Data from Local System": [
+            "Collection"
+        ],
+        "Valid Accounts: Domain Accounts": [
+            "Defense Evasion",
+            "Persistence",
+            "Privilege Escalation",
+            "Initial Access"
+        ],
+        "XSL Script Processing": [
+            "Defense Evasion"
+        ],
+        "Valid Accounts": [
+            "Defense Evasion",
+            "Persistence",
+            "Privilege Escalation",
+            "Initial Access"
+        ],
+        "Dynamic Resolution: Fast Flux DNS": [
+            "Command and Control"
+        ],
+        "Network Denial of Service": [
+            "Impact"
+        ],
+        "Steal Application Access Token": [
+            "Credential Access"
+        ],
+        "Process Injection: Portable Executable Injection": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Browser Extensions": [
+            "Persistence"
+        ],
+        "Taint Shared Content": [
+            "Lateral Movement"
+        ],
+        "Steal Web Session Cookie": [
+            "Credential Access"
+        ],
+        "System Services: Service Execution": [
+            "Execution"
+        ],
+        "Remote Access Software": [
+            "Command and Control"
+        ],
+        "Acquire Infrastructure: Web Services": [
+            "Resource Development"
+        ],
+        "Gather Victim Org Information: Identify Business Tempo": [
+            "Reconnaissance"
+        ],
+        "Compromise Infrastructure": [
+            "Resource Development"
+        ],
+        "Acquire Infrastructure: Botnet": [
+            "Resource Development"
+        ],
+        "Exfiltration Over Physical Medium": [
+            "Exfiltration"
+        ],
+        "Indicator Removal: File Deletion": [
+            "Defense Evasion"
+        ],
+        "Process Injection: Thread Execution Hijacking": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Event Triggered Execution: Unix Shell Configuration Modification": [
+            "Privilege Escalation",
+            "Persistence"
+        ],
+        "Compromise Infrastructure: Serverless": [
+            "Resource Development"
+        ],
+        "Acquire Infrastructure": [
+            "Resource Development"
+        ],
+        "Communication Through Removable Media": [
+            "Command and Control"
+        ],
+        "Data from Information Repositories: Messaging Applications": [
+            "Collection"
+        ],
+        "Steal or Forge Kerberos Tickets: Golden Ticket": [
+            "Credential Access"
+        ],
+        "Boot or Logon Initialization Scripts": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Virtualization/Sandbox Evasion": [
+            "Defense Evasion",
+            "Discovery"
+        ],
+        "Obfuscated Files or Information: Dynamic API Resolution": [
+            "Defense Evasion"
+        ],
+        "Automated Collection": [
+            "Collection"
+        ],
+        "Phishing for Information: Spearphishing Link": [
+            "Reconnaissance"
+        ],
+        "Obfuscated Files or Information: Stripped Payloads": [
+            "Defense Evasion"
+        ],
+        "Office Application Startup: Office Template Macros": [
+            "Persistence"
+        ],
+        "Steal or Forge Kerberos Tickets: AS-REP Roasting": [
+            "Credential Access"
+        ],
+        "Unsecured Credentials: Private Keys": [
+            "Credential Access"
+        ],
+        "Proxy: Multi-hop Proxy": [
+            "Command and Control"
+        ],
+        "System Information Discovery": [
+            "Discovery"
+        ],
+        "Account Manipulation: Device Registration": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Indicator Removal: Network Share Connection Removal": [
+            "Defense Evasion"
+        ],
+        "Impair Defenses: Spoof Security Alerting": [
+            "Defense Evasion"
+        ],
+        "System Service Discovery": [
+            "Discovery"
+        ],
+        "Trusted Developer Utilities Proxy Execution": [
+            "Defense Evasion"
+        ],
+        "Data from Information Repositories": [
+            "Collection"
+        ],
+        "OS Credential Dumping: LSA Secrets": [
+            "Credential Access"
+        ],
+        "Data from Cloud Storage": [
+            "Collection"
+        ],
+        "Data Obfuscation: Steganography": [
+            "Command and Control"
+        ],
+        "Process Injection: Dynamic-link Library Injection": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "System Binary Proxy Execution: Verclsid": [
+            "Defense Evasion"
+        ],
+        "Defacement: Internal Defacement": [
+            "Impact"
+        ],
+        "Hijack Execution Flow: Executable Installer File Permissions Weakness": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Compromise Host Software Binary": [
+            "Persistence"
+        ],
+        "Compromise Infrastructure: Botnet": [
+            "Resource Development"
+        ],
+        "System Location Discovery: System Language Discovery": [
+            "Discovery"
+        ],
+        "Forced Authentication": [
+            "Credential Access"
+        ],
+        "Valid Accounts: Default Accounts": [
+            "Defense Evasion",
+            "Persistence",
+            "Privilege Escalation",
+            "Initial Access"
+        ],
+        "Domain or Tenant Policy Modification": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Masquerading: Space after Filename": [
+            "Defense Evasion"
+        ],
+        "Obfuscated Files or Information: Encrypted/Encoded File": [
+            "Defense Evasion"
+        ],
+        "Account Discovery: Email Account": [
+            "Discovery"
+        ],
+        "Develop Capabilities: Digital Certificates": [
+            "Resource Development"
+        ],
+        "Create Account": [
+            "Persistence"
+        ],
+        "Cloud Infrastructure Discovery": [
+            "Discovery"
+        ],
+        "System Binary Proxy Execution: CMSTP": [
+            "Defense Evasion"
+        ],
+        "Adversary-in-the-Middle: Evil Twin": [
+            "Credential Access",
+            "Collection"
+        ],
+        "Hijack Execution Flow: Path Interception by Search Order Hijacking": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "Access Token Manipulation: Make and Impersonate Token": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Data from Information Repositories: Customer Relationship Management Software": [
+            "Collection"
+        ],
+        "Search Closed Sources: Purchase Technical Data": [
+            "Reconnaissance"
+        ],
+        "Hijack Execution Flow: Path Interception by PATH Environment Variable": [
+            "Persistence",
+            "Privilege Escalation",
+            "Defense Evasion"
+        ],
+        "System Binary Proxy Execution: Odbcconf": [
+            "Defense Evasion"
+        ],
+        "Boot or Logon Autostart Execution: Authentication Package": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Modify Authentication Process: Network Provider DLL": [
+            "Credential Access",
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Obfuscated Files or Information: HTML Smuggling": [
+            "Defense Evasion"
+        ],
+        "Data Staged": [
+            "Collection"
+        ],
+        "Server Software Component: Terminal Services DLL": [
+            "Persistence"
+        ],
+        "Credentials from Password Stores: Credentials from Web Browsers": [
+            "Credential Access"
+        ],
+        "Deploy Container": [
+            "Defense Evasion",
+            "Execution"
+        ],
+        "Exfiltration Over Alternative Protocol: Exfiltration Over Symmetric Encrypted Non-C2 Protocol": [
+            "Exfiltration"
+        ],
+        "Event Triggered Execution: Udev Rules": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Inter-Process Communication: XPC Services": [
+            "Execution"
+        ],
+        "Traffic Signaling: Socket Filters": [
+            "Defense Evasion",
+            "Persistence",
+            "Command and Control"
+        ],
+        "Hide Artifacts: Hidden File System": [
+            "Defense Evasion"
+        ],
+        "Scheduled Task/Job: Container Orchestration Job": [
+            "Execution",
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Remote Service Session Hijacking": [
+            "Lateral Movement"
+        ],
+        "Hide Artifacts: Ignore Process Interrupts": [
+            "Defense Evasion"
+        ],
+        "Exploit Public-Facing Application": [
+            "Initial Access"
+        ],
+        "Develop Capabilities: Code Signing Certificates": [
+            "Resource Development"
+        ],
+        "Defacement: External Defacement": [
+            "Impact"
+        ],
+        "Acquire Access": [
+            "Resource Development"
+        ],
+        "Exfiltration Over Other Network Medium": [
+            "Exfiltration"
+        ],
+        "Web Service: Dead Drop Resolver": [
+            "Command and Control"
+        ],
+        "System Binary Proxy Execution": [
+            "Defense Evasion"
+        ],
+        "Indicator Removal: Clear Linux or Mac System Logs": [
+            "Defense Evasion"
+        ],
+        "Hide Artifacts: Run Virtual Instance": [
+            "Defense Evasion"
+        ],
+        "Phishing: Spearphishing via Service": [
+            "Initial Access"
+        ],
+        "Gather Victim Network Information": [
+            "Reconnaissance"
+        ],
+        "Boot or Logon Autostart Execution: Time Providers": [
+            "Persistence",
+            "Privilege Escalation"
+        ],
+        "Command and Scripting Interpreter: JavaScript": [
+            "Execution"
+        ],
+        "Boot or Logon Autostart Execution: Print Processors": [
+            "Persistence",
+            "Privilege Escalation"
+        ]
+    },
+    "mobile": {
+        "Scheduled Task/Job": [
+            "Execution",
+            "Persistence"
+        ],
+        "Supply Chain Compromise: Compromise Software Dependencies and Development Tools": [
+            "Initial Access"
+        ],
+        "Exploitation for Privilege Escalation": [
+            "Privilege Escalation"
+        ],
+        "Exfiltration Over Alternative Protocol": [
+            "Exfiltration"
+        ],
+        "Phishing": [
+            "Initial Access"
+        ],
+        "Dynamic Resolution": [
+            "Command and Control"
+        ],
+        "Process Injection: Ptrace System Calls": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Exploitation for Client Execution": [
+            "Execution"
+        ],
+        "Proxy Through Victim": [
+            "Defense Evasion"
+        ],
+        "Location Tracking: Remote Device Management Services": [
+            "Collection",
+            "Discovery"
+        ],
+        "Dynamic Resolution: Domain Generation Algorithms": [
+            "Command and Control"
+        ],
+        "Hide Artifacts: User Evasion": [
+            "Defense Evasion"
+        ],
+        "Indicator Removal on Host: File Deletion": [
+            "Defense Evasion"
+        ],
+        "Obfuscated Files or Information": [
+            "Defense Evasion"
+        ],
+        "Process Discovery": [
+            "Discovery"
+        ],
+        "Event Triggered Execution: Broadcast Receivers": [
+            "Persistence"
+        ],
+        "Virtualization/Sandbox Evasion: System Checks": [
+            "Defense Evasion"
+        ],
+        "Hooking": [
+            "Defense Evasion"
+        ],
+        "Supply Chain Compromise: Compromise Software Supply Chain": [
+            "Initial Access"
+        ],
+        "Input Capture: Keylogging": [
+            "Collection",
+            "Credential Access"
+        ],
+        "Credentials from Password Store": [
+            "Credential Access"
+        ],
+        "Impair Defenses: Prevent Application Removal": [
+            "Defense Evasion"
+        ],
+        "Abuse Elevation Control Mechanism": [
+            "Privilege Escalation"
+        ],
+        "Indicator Removal on Host: Uninstall Malicious Application": [
+            "Defense Evasion"
+        ],
+        "Account Access Removal": [
+            "Impact"
+        ],
+        "Data from Local System": [
+            "Collection"
+        ],
+        "Masquerading: Match Legitimate Name or Location": [
+            "Defense Evasion"
+        ],
+        "SMS Control": [
+            "Impact"
+        ],
+        "Subvert Trust Controls": [
+            "Defense Evasion"
+        ],
+        "Exploitation for Initial Access": [
+            "Initial Access"
+        ],
+        "Web Service: One-Way Communication": [
+            "Command and Control"
+        ],
+        "Boot or Logon Initialization Scripts": [
+            "Persistence"
+        ],
+        "Generate Traffic from Victim": [
+            "Impact"
+        ],
+        "Steal Application Access Token: URI Hijacking": [
+            "Credential Access"
+        ],
+        "Input Injection": [
+            "Defense Evasion",
+            "Impact"
+        ],
+        "Indicator Removal on Host: Disguise Root/Jailbreak Indicators": [
+            "Defense Evasion"
+        ],
+        "Remote Access Software": [
+            "Command and Control"
+        ],
+        "Credentials from Password Store: Keychain": [
+            "Credential Access"
+        ],
+        "Hide Artifacts: Suppress Application Icon": [
+            "Defense Evasion"
+        ],
+        "Supply Chain Compromise": [
+            "Initial Access"
+        ],
+        "Steal Application Access Token": [
+            "Credential Access"
+        ],
+        "Access Notifications": [
+            "Collection",
+            "Credential Access"
+        ],
+        "Data Encrypted for Impact": [
+            "Impact"
+        ],
+        "Download New Code at Runtime": [
+            "Defense Evasion"
+        ],
+        "System Network Connections Discovery": [
+            "Discovery"
+        ],
+        "Clipboard Data": [
+            "Collection",
+            "Credential Access"
+        ],
+        "Impair Defenses: Device Lockout": [
+            "Defense Evasion"
+        ],
+        "Software Discovery: Security Software Discovery": [
+            "Discovery"
+        ],
+        "Virtualization/Sandbox Evasion": [
+            "Defense Evasion"
+        ],
+        "Protected User Data: Call Log": [
+            "Collection"
+        ],
+        "Native API": [
+            "Defense Evasion",
+            "Execution"
+        ],
+        "Encrypted Channel": [
+            "Command and Control"
+        ],
+        "Application Versioning": [
+            "Initial Access",
+            "Defense Evasion"
+        ],
+        "Obfuscated Files or Information: Steganography": [
+            "Defense Evasion"
+        ],
+        "Ingress Tool Transfer": [
+            "Command and Control"
+        ],
+        "Video Capture": [
+            "Collection"
+        ],
+        "Command and Scripting Interpreter: Unix Shell": [
+            "Execution"
+        ],
+        "Hide Artifacts: Conceal Multimedia Files": [
+            "Defense Evasion"
+        ],
+        "Call Control": [
+            "Collection",
+            "Impact",
+            "Command and Control"
+        ],
+        "Stored Application Data": [
+            "Collection"
+        ],
+        "Protected User Data: Contact List": [
+            "Collection"
+        ],
+        "Execution Guardrails": [
+            "Defense Evasion"
+        ],
+        "System Information Discovery": [
+            "Discovery"
+        ],
+        "Impair Defenses: Disable or Modify Tools": [
+            "Defense Evasion"
+        ],
+        "Non-Standard Port": [
+            "Command and Control"
+        ],
+        "Out of Band Data": [
+            "Command and Control"
+        ],
+        "Compromise Application Executable": [
+            "Persistence"
+        ],
+        "Network Denial of Service": [
+            "Impact"
+        ],
+        "Web Service: Bidirectional Communication": [
+            "Command and Control"
+        ],
+        "Foreground Persistence": [
+            "Defense Evasion",
+            "Persistence"
+        ],
+        "Data Destruction": [
+            "Impact"
+        ],
+        "Hijack Execution Flow": [
+            "Persistence"
+        ],
+        "Exfiltration Over Alternative Protocol: Exfiltration Over Unencrypted Non-C2 Protocol": [
+            "Exfiltration"
+        ],
+        "Encrypted Channel: Symmetric Cryptography": [
+            "Command and Control"
+        ],
+        "System Network Configuration Discovery: Internet Connection Discovery": [
+            "Discovery"
+        ],
+        "Archive Collected Data": [
+            "Collection"
+        ],
+        "Screen Capture": [
+            "Collection"
+        ],
+        "Application Layer Protocol: Web Protocols": [
+            "Command and Control"
+        ],
+        "Indicator Removal on Host": [
+            "Defense Evasion"
+        ],
+        "Audio Capture": [
+            "Collection"
+        ],
+        "System Network Configuration Discovery: Wi-Fi Discovery": [
+            "Discovery"
+        ],
+        "Abuse Elevation Control Mechanism: Device Administrator Permissions": [
+            "Privilege Escalation"
+        ],
+        "Hide Artifacts": [
+            "Defense Evasion"
+        ],
+        "Command and Scripting Interpreter": [
+            "Execution"
+        ],
+        "Data Manipulation: Transmitted Data Manipulation": [
+            "Impact"
+        ],
+        "Compromise Client Software Binary": [
+            "Persistence"
+        ],
+        "Hijack Execution Flow: System Runtime API Hijacking": [
+            "Persistence"
+        ],
+        "Obfuscated Files or Information: Software Packing": [
+            "Defense Evasion"
+        ],
+        "Location Tracking": [
+            "Collection",
+            "Discovery"
+        ],
+        "Impair Defenses": [
+            "Defense Evasion"
+        ],
+        "Application Layer Protocol": [
+            "Command and Control"
+        ],
+        "Protected User Data": [
+            "Collection"
+        ],
+        "Software Discovery": [
+            "Discovery"
+        ],
+        "Exfiltration Over C2 Channel": [
+            "Exfiltration"
+        ],
+        "Masquerading": [
+            "Defense Evasion"
+        ],
+        "Encrypted Channel: Asymmetric Cryptography": [
+            "Command and Control"
+        ],
+        "Execution Guardrails: Geofencing": [
+            "Defense Evasion"
+        ],
+        "Input Capture": [
+            "Collection",
+            "Credential Access"
+        ],
+        "Protected User Data: SMS Messages": [
+            "Collection"
+        ],
+        "File and Directory Discovery": [
+            "Discovery"
+        ],
+        "Replication Through Removable Media": [
+            "Initial Access",
+            "Lateral Movement"
+        ],
+        "Supply Chain Compromise: Compromise Hardware Supply Chain": [
+            "Initial Access"
+        ],
+        "Exploitation of Remote Services": [
+            "Lateral Movement"
+        ],
+        "Adversary-in-the-Middle": [
+            "Collection"
+        ],
+        "Process Injection": [
+            "Defense Evasion",
+            "Privilege Escalation"
+        ],
+        "Data Manipulation": [
+            "Impact"
+        ],
+        "Subvert Trust Controls: Code Signing Policy Modification": [
+            "Defense Evasion"
+        ],
+        "Network Service Scanning": [
+            "Discovery"
+        ],
+        "Event Triggered Execution": [
+            "Persistence"
+        ],
+        "Lockscreen Bypass": [
+            "Initial Access"
+        ],
+        "Location Tracking: Impersonate SS7 Nodes": [
+            "Collection",
+            "Discovery"
+        ],
+        "Web Service: Dead Drop Resolver": [
+            "Command and Control"
+        ],
+        "Input Capture: GUI Input Capture": [
+            "Credential Access",
+            "Collection"
+        ],
+        "Web Service": [
+            "Command and Control"
+        ],
+        "System Network Configuration Discovery": [
+            "Discovery"
+        ],
+        "Drive-By Compromise": [
+            "Initial Access"
+        ],
+        "Protected User Data: Calendar Entries": [
+            "Collection"
+        ],
+        "Endpoint Denial of Service": [
+            "Impact"
+        ],
+        "Encrypted Channel: SSL Pinning": [
+            "Command and Control"
+        ]
+    },
+    "industrial control system": {
+        "Network Connection Enumeration": [
+            "Discovery"
+        ],
+        "Modify Program": [
+            "Persistence"
+        ],
+        "Exploitation for Privilege Escalation": [
+            "Privilege Escalation"
+        ],
+        "Activate Firmware Update Mode": [
+            "Inhibit Response Function"
+        ],
+        "Manipulate I/O Image": [
+            "Inhibit Response Function"
+        ],
+        "I/O Image": [
+            "Collection"
+        ],
+        "Indicator Removal on Host": [
+            "Evasion"
+        ],
+        "Remote System Discovery": [
+            "Discovery"
+        ],
+        "Command-Line Interface": [
+            "Execution"
+        ],
+        "Standard Application Layer Protocol": [
+            "Command and Control"
+        ],
+        "Execution through API": [
+            "Execution"
+        ],
+        "Block Reporting Message": [
+            "Inhibit Response Function"
+        ],
+        "Module Firmware": [
+            "Persistence",
+            "Impair Process Control"
+        ],
+        "Wireless Sniffing": [
+            "Discovery",
+            "Collection"
+        ],
+        "Theft of Operational Information": [
+            "Impact"
+        ],
+        "Modify Controller Tasking": [
+            "Execution"
+        ],
+        "Damage to Property": [
+            "Impact"
+        ],
+        "Valid Accounts": [
+            "Persistence",
+            "Lateral Movement"
+        ],
+        "Connection Proxy": [
+            "Command and Control"
+        ],
+        "Detect Operating Mode": [
+            "Collection"
+        ],
+        "Change Operating Mode": [
+            "Execution",
+            "Evasion"
+        ],
+        "Exploit Public-Facing Application": [
+            "Initial Access"
+        ],
+        "Spearphishing Attachment": [
+            "Initial Access"
+        ],
+        "Automated Collection": [
+            "Collection"
+        ],
+        "Network Sniffing": [
+            "Discovery"
+        ],
+        "Remote System Information Discovery": [
+            "Discovery"
+        ],
+        "Adversary-in-the-Middle": [
+            "Collection"
+        ],
+        "Alarm Suppression": [
+            "Inhibit Response Function"
+        ],
+        "Lateral Tool Transfer": [
+            "Lateral Movement"
+        ],
+        "Loss of Protection": [
+            "Impact"
+        ],
+        "Graphical User Interface": [
+            "Execution"
+        ],
+        "Default Credentials": [
+            "Lateral Movement"
+        ],
+        "Change Credential": [
+            "Inhibit Response Function"
+        ],
+        "Denial of Service": [
+            "Inhibit Response Function"
+        ],
+        "Hooking": [
+            "Execution",
+            "Privilege Escalation"
+        ],
+        "External Remote Services": [
+            "Initial Access"
+        ],
+        "Block Serial COM": [
+            "Inhibit Response Function"
+        ],
+        "Loss of Productivity and Revenue": [
+            "Impact"
+        ],
+        "Screen Capture": [
+            "Collection"
+        ],
+        "Modify Alarm Settings": [
+            "Inhibit Response Function"
+        ],
+        "Manipulation of Control": [
+            "Impact"
+        ],
+        "Modify Parameter": [
+            "Impair Process Control"
+        ],
+        "Masquerading": [
+            "Evasion"
+        ],
+        "Remote Services": [
+            "Initial Access",
+            "Lateral Movement"
+        ],
+        "Loss of Safety": [
+            "Impact"
+        ],
+        "User Execution": [
+            "Execution"
+        ],
+        "Service Stop": [
+            "Inhibit Response Function"
+        ],
+        "Wireless Compromise": [
+            "Initial Access"
+        ],
+        "Hardcoded Credentials": [
+            "Lateral Movement",
+            "Persistence"
+        ],
+        "Spoof Reporting Message": [
+            "Evasion",
+            "Impair Process Control"
+        ],
+        "Manipulation of View": [
+            "Impact"
+        ],
+        "Project File Infection": [
+            "Persistence"
+        ],
+        "Denial of View": [
+            "Impact"
+        ],
+        "Supply Chain Compromise": [
+            "Initial Access"
+        ],
+        "Denial of Control": [
+            "Impact"
+        ],
+        "Point & Tag Identification": [
+            "Collection"
+        ],
+        "Data from Local System": [
+            "Collection"
+        ],
+        "Program Download": [
+            "Lateral Movement"
+        ],
+        "Drive-by Compromise": [
+            "Initial Access"
+        ],
+        "Exploitation of Remote Services": [
+            "Initial Access",
+            "Lateral Movement"
+        ],
+        "Loss of Availability": [
+            "Impact"
+        ],
+        "System Firmware": [
+            "Persistence",
+            "Inhibit Response Function"
+        ],
+        "Unauthorized Command Message": [
+            "Impair Process Control"
+        ],
+        "Internet Accessible Device": [
+            "Initial Access"
+        ],
+        "System Binary Proxy Execution": [
+            "Evasion"
+        ],
+        "Program Upload": [
+            "Collection"
+        ],
+        "Autorun Image": [
+            "Execution"
+        ],
+        "Rootkit": [
+            "Evasion",
+            "Inhibit Response Function"
+        ],
+        "Data Destruction": [
+            "Inhibit Response Function"
+        ],
+        "Monitor Process State": [
+            "Collection"
+        ],
+        "Transient Cyber Asset": [
+            "Initial Access"
+        ],
+        "Replication Through Removable Media": [
+            "Initial Access"
+        ],
+        "Exploitation for Evasion": [
+            "Evasion"
+        ],
+        "Commonly Used Port": [
+            "Command and Control"
+        ],
+        "Loss of Control": [
+            "Impact"
+        ],
+        "Loss of View": [
+            "Impact"
+        ],
+        "Brute Force I/O": [
+            "Impair Process Control"
+        ],
+        "Data from Information Repositories": [
+            "Collection"
+        ],
+        "Rogue Master": [
+            "Initial Access"
+        ],
+        "Native API": [
+            "Execution"
+        ],
+        "Device Restart/Shutdown": [
+            "Inhibit Response Function"
+        ],
+        "Scripting": [
+            "Execution"
+        ],
+        "Block Command Message": [
+            "Inhibit Response Function"
+        ]
+    },
+    "ai system": {
+        "Search Open Technical Databases": [
+          "Reconnaissance"
+        ],
+        "Search Open Technical Databases: Journals and Conference Proceedings": [
+          "Reconnaissance"
+        ],
+        "Search Open Technical Databases: Pre-Print Repositories": [
+          "Reconnaissance"
+        ],
+        "Search Open Technical Databases: Technical Blogs": [
+          "Reconnaissance"
+        ],
+        "Search Open AI Vulnerability Analysis": [
+          "Reconnaissance"
+        ],
+        "Acquire Public AI Artifacts": [
+          "Resource Development"
+        ],
+        "Acquire Public AI Artifacts: Datasets": [
+          "Resource Development"
+        ],
+        "Acquire Public AI Artifacts: Models": [
+          "Resource Development"
+        ],
+        "Acquire Public AI Artifacts: AI Agent Configuration": [
+          "Resource Development"
+        ],
+        "Search Victim-Owned Websites": [
+          "Reconnaissance"
+        ],
+        "Search Application Repositories": [
+          "Reconnaissance"
+        ],
+        "Create Proxy AI Model": [
+          "AI Attack Staging"
+        ],
+        "Create Proxy AI Model: Train Proxy via Gathered AI Artifacts": [
+          "AI Attack Staging"
+        ],
+        "Create Proxy AI Model: Train Proxy via Replication": [
+          "AI Attack Staging"
+        ],
+        "Create Proxy AI Model: Use Pre-Trained Model": [
+          "AI Attack Staging"
+        ],
+        "Active Scanning": [
+          "Reconnaissance"
+        ],
+        "Discover AI Artifacts": [
+          "Discovery"
+        ],
+        "Acquire Infrastructure": [
+          "Resource Development"
+        ],
+        "Acquire Infrastructure: AI Development Workspaces": [
+          "Resource Development"
+        ],
+        "Acquire Infrastructure: Consumer Hardware": [
+          "Resource Development"
+        ],
+        "Acquire Infrastructure: Domains": [
+          "Resource Development"
+        ],
+        "Acquire Infrastructure: Physical Countermeasures": [
+          "Resource Development"
+        ],
+        "Acquire Infrastructure: Serverless": [
+          "Resource Development"
+        ],
+        "Acquire Infrastructure: AI Service Proxies": [
+          "Resource Development"
+        ],
+        "AI Supply Chain Compromise": [
+          "Initial Access"
+        ],
+        "AI Supply Chain Compromise: Hardware": [
+          "Initial Access"
+        ],
+        "AI Supply Chain Compromise: AI Software": [
+          "Initial Access"
+        ],
+        "AI Supply Chain Compromise: Data": [
+          "Initial Access"
+        ],
+        "AI Supply Chain Compromise: Model": [
+          "Initial Access"
+        ],
+        "AI Supply Chain Compromise: Container Registry": [
+          "Initial Access"
+        ],
+        "AI Supply Chain Compromise: AI Agent Tool": [
+          "Initial Access"
+        ],
+        "User Execution": [
+          "Execution"
+        ],
+        "User Execution: Unsafe AI Artifacts": [
+          "Execution"
+        ],
+        "User Execution: Malicious Package": [
+          "Execution"
+        ],
+        "User Execution: Poisoned AI Agent Tool": [
+          "Execution"
+        ],
+        "User Execution: Malicious Link": [
+          "Execution"
+        ],
+        "Valid Accounts": [
+          "Initial Access",
+          "Privilege Escalation"
+        ],
+        "Discover AI Model Ontology": [
+          "Discovery"
+        ],
+        "Discover AI Model Family": [
+          "Discovery"
+        ],
+        "Evade AI Model": [
+          "Initial Access",
+          "Defense Evasion",
+          "Impact"
+        ],
+        "Obtain Capabilities": [
+          "Resource Development"
+        ],
+        "Obtain Capabilities: Adversarial AI Attack Implementations": [
+          "Resource Development"
+        ],
+        "Obtain Capabilities: Software Tools": [
+          "Resource Development"
+        ],
+        "Obtain Capabilities: Generative AI": [
+          "Resource Development"
+        ],
+        "Develop Capabilities": [
+          "Resource Development"
+        ],
+        "Develop Capabilities: Adversarial AI Attacks": [
+          "Resource Development"
+        ],
+        "Manipulate AI Model": [
+          "Persistence",
+          "AI Attack Staging"
+        ],
+        "Manipulate AI Model: Poison AI Model": [
+          "Persistence",
+          "AI Attack Staging"
+        ],
+        "Manipulate AI Model: Modify AI Model Architecture": [
+          "Persistence",
+          "AI Attack Staging"
+        ],
+        "Manipulate AI Model: Embed Malware": [
+          "Persistence",
+          "AI Attack Staging"
+        ],
+        "Publish Poisoned Datasets": [
+          "Resource Development"
+        ],
+        "Poison Training Data": [
+          "Resource Development",
+          "Persistence"
+        ],
+        "Establish Accounts": [
+          "Resource Development"
+        ],
+        "Exfiltration via AI Inference API": [
+          "Exfiltration"
+        ],
+        "Exfiltration via AI Inference API: Infer Training Data Membership": [
+          "Exfiltration"
+        ],
+        "Exfiltration via AI Inference API: Invert AI Model": [
+          "Exfiltration"
+        ],
+        "Exfiltration via AI Inference API: Extract AI Model": [
+          "Exfiltration"
+        ],
+        "Exfiltration via Cyber Means": [
+          "Exfiltration"
+        ],
+        "Denial of AI Service": [
+          "Impact"
+        ],
+        "Erode AI Model Integrity": [
+          "Impact"
+        ],
+        "Cost Harvesting": [
+          "Impact"
+        ],
+        "Cost Harvesting: Excessive Queries": [
+          "Impact"
+        ],
+        "Cost Harvesting: Resource-Intensive Queries": [
+          "Impact"
+        ],
+        "Cost Harvesting: Agentic Resource Consumption": [
+          "Impact"
+        ],
+        "AI Artifact Collection": [
+          "Collection"
+        ],
+        "Data from Information Repositories": [
+          "Collection"
+        ],
+        "Data from Local System": [
+          "Collection"
+        ],
+        "AI Model Inference API Access": [
+          "AI Model Access"
+        ],
+        "Physical Environment Access": [
+          "AI Model Access"
+        ],
+        "Verify Attack": [
+          "AI Attack Staging"
+        ],
+        "Craft Adversarial Data": [
+          "AI Attack Staging"
+        ],
+        "Craft Adversarial Data: White-Box Optimization": [
+          "AI Attack Staging"
+        ],
+        "Craft Adversarial Data: Black-Box Optimization": [
+          "AI Attack Staging"
+        ],
+        "Craft Adversarial Data: Black-Box Transfer": [
+          "AI Attack Staging"
+        ],
+        "Craft Adversarial Data: Manual Modification": [
+          "AI Attack Staging"
+        ],
+        "Craft Adversarial Data: Insert Backdoor Trigger": [
+          "AI Attack Staging"
+        ],
+        "Full AI Model Access": [
+          "AI Model Access"
+        ],
+        "Spamming AI System with Chaff Data": [
+          "Impact"
+        ],
+        "AI-Enabled Product or Service": [
+          "AI Model Access"
+        ],
+        "External Harms": [
+          "Impact"
+        ],
+        "External Harms: Financial Harm": [
+          "Impact"
+        ],
+        "External Harms: Reputational Harm": [
+          "Impact"
+        ],
+        "External Harms: Societal Harm": [
+          "Impact"
+        ],
+        "External Harms: User Harm": [
+          "Impact"
+        ],
+        "External Harms: AI Intellectual Property Theft": [
+          "Impact"
+        ],
+        "Exploit Public-Facing Application": [
+          "Initial Access"
+        ],
+        "Command and Scripting Interpreter": [
+          "Execution"
+        ],
+        "LLM Prompt Injection": [
+          "Execution"
+        ],
+        "LLM Prompt Injection: Direct": [
+          "Execution"
+        ],
+        "LLM Prompt Injection: Indirect": [
+          "Execution"
+        ],
+        "LLM Prompt Injection: Triggered": [
+          "Execution"
+        ],
+        "Phishing": [
+          "Initial Access",
+          "Lateral Movement"
+        ],
+        "Phishing: Spearphishing via Social Engineering LLM": [
+          "Initial Access",
+          "Lateral Movement"
+        ],
+        "Phishing: Deepfake-Assisted Phishing": [
+          "Initial Access",
+          "Lateral Movement"
+        ],
+        "AI Agent Tool Invocation": [
+          "Execution",
+          "Privilege Escalation"
+        ],
+        "LLM Jailbreak": [
+          "Privilege Escalation",
+          "Defense Evasion"
+        ],
+        "Unsecured Credentials": [
+          "Credential Access"
+        ],
+        "Extract LLM System Prompt": [
+          "Exfiltration"
+        ],
+        "LLM Data Leakage": [
+          "Exfiltration"
+        ],
+        "Publish Poisoned Models": [
+          "Resource Development"
+        ],
+        "Erode Dataset Integrity": [
+          "Impact"
+        ],
+        "Publish Hallucinated Entities": [
+          "Resource Development"
+        ],
+        "LLM Prompt Self-Replication": [
+          "Persistence"
+        ],
+        "Discover LLM Hallucinations": [
+          "Discovery"
+        ],
+        "Discover AI Model Outputs": [
+          "Discovery"
+        ],
+        "Gather RAG-Indexed Targets": [
+          "Reconnaissance"
+        ],
+        "LLM Prompt Crafting": [
+          "Resource Development"
+        ],
+        "Retrieval Content Crafting": [
+          "Resource Development"
+        ],
+        "LLM Trusted Output Components Manipulation": [
+          "Defense Evasion"
+        ],
+        "LLM Trusted Output Components Manipulation: Citations": [
+          "Defense Evasion"
+        ],
+        "LLM Prompt Obfuscation": [
+          "Defense Evasion"
+        ],
+        "Discover LLM System Information": [
+          "Discovery"
+        ],
+        "Discover LLM System Information: Special Character Sets": [
+          "Discovery"
+        ],
+        "Discover LLM System Information: System Instruction Keywords": [
+          "Discovery"
+        ],
+        "Discover LLM System Information: System Prompt": [
+          "Discovery"
+        ],
+        "RAG Poisoning": [
+          "Persistence"
+        ],
+        "False RAG Entry Injection": [
+          "Defense Evasion"
+        ],
+        "Reverse Shell": [
+          "Command and Control"
+        ],
+        "Impersonation": [
+          "Defense Evasion"
+        ],
+        "Masquerading": [
+          "Defense Evasion"
+        ],
+        "Cloud Service Discovery": [
+          "Discovery"
+        ],
+        "Corrupt AI Model": [
+          "Defense Evasion"
+        ],
+        "LLM Response Rendering": [
+          "Exfiltration"
+        ],
+        "Drive-by Compromise": [
+          "Initial Access"
+        ],
+        "Stage Capabilities": [
+          "Resource Development"
+        ],
+        "AI Agent Context Poisoning": [
+          "Persistence"
+        ],
+        "AI Agent Context Poisoning: Memory": [
+          "Persistence"
+        ],
+        "AI Agent Context Poisoning: Thread": [
+          "Persistence"
+        ],
+        "Modify AI Agent Configuration": [
+          "Persistence",
+          "Defense Evasion"
+        ],
+        "RAG Credential Harvesting": [
+          "Credential Access"
+        ],
+        "Credentials from AI Agent Configuration": [
+          "Credential Access"
+        ],
+        "Discover AI Agent Configuration": [
+          "Discovery"
+        ],
+        "Discover AI Agent Configuration: Embedded Knowledge": [
+          "Discovery"
+        ],
+        "Discover AI Agent Configuration: Tool Definitions": [
+          "Discovery"
+        ],
+        "Discover AI Agent Configuration: Activation Triggers": [
+          "Discovery"
+        ],
+        "Discover AI Agent Configuration: Call Chains": [
+          "Discovery"
+        ],
+        "Data from AI Services": [
+          "Collection"
+        ],
+        "Data from AI Services: RAG Databases": [
+          "Collection"
+        ],
+        "Data from AI Services: AI Agent Tools": [
+          "Collection"
+        ],
+        "Exfiltration via AI Agent Tool Invocation": [
+          "Exfiltration"
+        ],
+        "Gather Victim Identity Information": [
+          "Reconnaissance"
+        ],
+        "Generate Deepfakes": [
+          "AI Attack Staging"
+        ],
+        "Process Discovery": [
+          "Discovery"
+        ],
+        "OS Credential Dumping": [
+          "Credential Access"
+        ],
+        "Use Alternate Authentication Material": [
+          "Lateral Movement"
+        ],
+        "Use Alternate Authentication Material: Application Access Token": [
+          "Lateral Movement"
+        ],
+        "Manipulate User LLM Chat History": [
+          "Defense Evasion"
+        ],
+        "Prompt Infiltration via Public-Facing Application": [
+          "Initial Access",
+          "Persistence"
+        ],
+        "Delay Execution of LLM Instructions": [
+          "Defense Evasion"
+        ],
+        "Search Open Websites/Domains": [
+          "Reconnaissance"
+        ],
+        "Search Open Websites/Domains: Code Repositories": [
+          "Reconnaissance"
+        ],
+        "AI Service API": [
+          "Command and Control"
+        ],
+        "Virtualization/Sandbox Evasion": [
+          "Defense Evasion"
+        ],
+        "AI Agent Tool Credential Harvesting": [
+          "Credential Access"
+        ],
+        "AI Agent Tool Data Poisoning": [
+          "Persistence"
+        ],
+        "AI Agent Clickbait": [
+          "Execution"
+        ],
+        "Data Destruction via AI Agent Tool Invocation": [
+          "Impact"
+        ],
+        "Generate Malicious Commands": [
+          "AI Attack Staging"
+        ],
+        "Deploy AI Agent": [
+          "Execution"
+        ],
+        "Publish Poisoned AI Agent Tool": [
+          "Resource Development"
+        ],
+        "Escape to Host": [
+          "Privilege Escalation"
+        ],
+        "Exploitation for Credential Access": [
+          "Credential Access"
+        ],
+        "Exploitation for Defense Evasion": [
+          "Defense Evasion"
+        ],
+        "AI Agent": [
+          "Command and Control"
+        ],
+        "AI Supply Chain Rug Pull": [
+          "Defense Evasion"
+        ],
+        "AI Agent Tool Poisoning": [
+          "Persistence"
+        ],
+        "AI Supply Chain Reputation Inflation": [
+          "Defense Evasion"
+        ],
+        "Machine Compromise": [
+          "Impact"
+        ],
+        "Machine Compromise: Local AI Agent": [
+          "Impact"
+        ],
+        "Machine Compromise: AI Artifacts": [
+          "Impact"
+        ]
+    }
+}
